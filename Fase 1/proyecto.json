@@ -1,0 +1,20 @@
+{
+"usuarios": [
+{ "nick": "", "password": "", "monedas": "", "edad": "" },
+{ "nick": "", "password": "", "monedas": "", "edad": "" },
+{ "nick": "", "password": "", "monedas": "", "edad": "" }
+],
+"articulos": [
+{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" },
+{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" },
+{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" }
+],
+"tutorial": {
+"ancho":"",
+"alto":"",
+"movimientos":[
+{ "x": "", "y": "" },
+{ "x": "", "y": "" },
+{ "x": "", "y": "" }
+]
+}
