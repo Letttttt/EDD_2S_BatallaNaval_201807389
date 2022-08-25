@@ -5,10 +5,12 @@
 using namespace std;
 
 class ListaUsuarios {
+    int contador=0;
 public:
     ListaUsuarios();
     void Ingresar(string, string, int, int);
     bool BuscarUsuario(string);
+    void MostrarElementos();
 
 };
 

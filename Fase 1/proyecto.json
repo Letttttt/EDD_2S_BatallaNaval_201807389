@@ -1,20 +1,21 @@
 {
 "usuarios": [
-{ "nick": "", "password": "", "monedas": "", "edad": "" },
-{ "nick": "", "password": "", "monedas": "", "edad": "" },
-{ "nick": "", "password": "", "monedas": "", "edad": "" }
+{ "nick": "let", "password": "0123", "monedas": "100", "edad": "25" },
+{ "nick": "glv", "password": "1234", "monedas": "25", "edad": "24" },
+{ "nick": "lety", "password": "2090", "monedas": "50", "edad": "23" }
 ],
 "articulos": [
-{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" },
-{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" },
-{ "id": "", "categoria": "", "precio": "", "nombre": "", "src": "" }
+{ "id": "1", "categoria": "uno", "precio": "20", "nombre": "arti", "src": "01" },
+{ "id": "2", "categoria": "dos", "precio": "30", "nombre": "arti1", "src": "02" },
+{ "id": "3", "categoria": "tres", "precio": "40", "nombre": "arti2", "src": "03" }
 ],
 "tutorial": {
-"ancho":"",
-"alto":"",
+"ancho":"20",
+"alto":"40",
 "movimientos":[
-{ "x": "", "y": "" },
-{ "x": "", "y": "" },
-{ "x": "", "y": "" }
+{ "x": "20", "y": "25" },
+{ "x": "30", "y": "35" },
+{ "x": "40", "y": "45" }
 ]
+}
 }

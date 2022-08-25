@@ -22,5 +22,14 @@ void ListaProductos::IngresandoProducto(int id, string categoria, double precio,
     nuevo->precio=precio;
     nuevo->nombre=nombre;
     nuevo->desconocido=desconocido;
+    if(principio1==NULL){
+        principio1=nuevo;
+    }else{
+        NodoProducto*temp=principio1;
+        while(temp->siguiente==NULL){
+            temp=temp->siguiente;
+        }
+        temp->siguiente=nuevo;
+    }
 }
 

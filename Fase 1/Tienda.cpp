@@ -20,18 +20,18 @@ void Tienda::IngresandoProducto(int id, string categoria, double precio, string 
         principio3=nuevo;
     }else{
         NodoCategoria* temp= principio3;
-        bool existe= false;
-        while(temp!=NULL){
+        while(temp->siguiente!=NULL){
             if(temp->NombreCategoria==categoria){
                 temp->productos->IngresandoProducto(id, categoria, precio, nombre, desconocido);
-                existe = true;
                 break;
             }
             temp=temp->siguiente;    
         }
-        if(!existe){
-            nuevo->productos->IngresandoProducto(id, categoria, precio, nombre, desconocido);
-            temp->siguiente= nuevo;
+        if(temp->siguiente==NULL && temp->NombreCategoria==categoria){
+            temp->productos->IngresandoProducto(id, categoria, precio, nombre, desconocido);
+        }else if(temp->siguiente==NULL && temp->NombreCategoria!=categoria){
+        nuevo->productos->IngresandoProducto(id, categoria, precio, nombre, desconocido);
+        temp->siguiente=nuevo;
         }
     }
 }

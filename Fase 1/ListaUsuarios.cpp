@@ -32,24 +32,41 @@ void ListaUsuarios::Ingresar(string Nickname, string Password, int Monedas, int 
         principio = ultimo = nuevo;
         principio->siguiente = ultimo;
         ultimo->atras = principio;
+        contador++;
+        
     } else {
-        if (!BuscarUsuario(Nickname)) {
+        
+        if (BuscarUsuario(Nickname)== false) {
             ultimo->siguiente = nuevo;
             nuevo->atras = ultimo;
             ultimo = nuevo;
             principio->atras = ultimo;
+            contador++;
         }
     }
 }
 
 bool ListaUsuarios::BuscarUsuario(string Nickname) {
     Nodo*temp = principio;
-    while (temp != NULL) {
+    int cont=0;
+    while (cont<contador) {
         if (temp->user->Nickname == Nickname) {
             return true;
         }
+        cont++;
+        temp=temp->siguiente;
     }
     return false;
 
+}
+
+void ListaUsuarios::MostrarElementos(){
+Nodo*temp = principio;
+    int cont=0;
+    while (cont<contador) {
+        cout << temp->user->Monedas <<"acá pasa"<< endl;
+        cont++;
+        temp=temp->siguiente;
+    }
 }
 
