@@ -1,7 +1,17 @@
 build/Debug/MinGW-Windows/main.o: main.cpp Menu.h ListaUsuarios.h \
- Tienda.h ListaMovimientos.h Pila.h
+ Usuario.h ListaMovimientos.h NodoMovimiento.h Pila.h Nodo.h \
+ NodoUsuario.h Tienda.h NodoTienda.h ListaProductos.h NodoProducto.h \
+ Tutorial.h
 Menu.h:
 ListaUsuarios.h:
-Tienda.h:
+Usuario.h:
 ListaMovimientos.h:
+NodoMovimiento.h:
 Pila.h:
+Nodo.h:
+NodoUsuario.h:
+Tienda.h:
+NodoTienda.h:
+ListaProductos.h:
+NodoProducto.h:
+Tutorial.h:

@@ -8,9 +8,15 @@
       <itemPath>ListaProductos.h</itemPath>
       <itemPath>ListaUsuarios.h</itemPath>
       <itemPath>Menu.h</itemPath>
+      <itemPath>Nodo.h</itemPath>
+      <itemPath>NodoMovimiento.h</itemPath>
+      <itemPath>NodoProducto.h</itemPath>
+      <itemPath>NodoTienda.h</itemPath>
+      <itemPath>NodoUsuario.h</itemPath>
       <itemPath>Pila.h</itemPath>
       <itemPath>Tienda.h</itemPath>
       <itemPath>Tutorial.h</itemPath>
+      <itemPath>Usuario.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -66,6 +72,16 @@
       </item>
       <item path="Menu.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoMovimiento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoProducto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoTienda.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pila.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Pila.h" ex="false" tool="3" flavor2="0">
@@ -77,6 +93,8 @@
       <item path="Tutorial.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Tutorial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -117,6 +135,16 @@
       </item>
       <item path="Menu.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoMovimiento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoProducto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoTienda.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pila.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Pila.h" ex="false" tool="3" flavor2="0">
@@ -128,6 +156,8 @@
       <item path="Tutorial.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Tutorial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

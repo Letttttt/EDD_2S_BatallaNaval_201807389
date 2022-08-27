@@ -1,20 +1,6 @@
 #include "ListaProductos.h"
 #include <string>
 
-struct NodoProducto{
-    int id;
-    string categoria;
-    double precio;
-    string nombre;
-    string desconocido;
-    NodoProducto* siguiente;
-}*principio1;
-
-
-ListaProductos::ListaProductos() {
-}
-
-
 void ListaProductos::IngresandoProducto(int id, string categoria, double precio, string nombre, string desconocido) {
     NodoProducto* nuevo = new NodoProducto();
     nuevo->id=id;
@@ -25,11 +11,19 @@ void ListaProductos::IngresandoProducto(int id, string categoria, double precio,
     if(principio1==NULL){
         principio1=nuevo;
     }else{
+        cout << "entro?"<< categoria<< endl;
         NodoProducto*temp=principio1;
-        while(temp->siguiente==NULL){
+        while(temp->siguiente!=NULL){
             temp=temp->siguiente;
         }
         temp->siguiente=nuevo;
     }
 }
 
+void ListaProductos::MostrarProducto(){
+    NodoProducto*temp=principio1;
+        while(temp!=NULL){
+            cout << temp->id<< temp->nombre<< temp->categoria<< endl;
+            temp=temp->siguiente;
+        }
+}

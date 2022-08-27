@@ -55,12 +55,14 @@ void Menu::Mostrar() {
 //                usuarios->MostrarElementos();
                 for(int i=0; i<productoTienda.size(); ++i){
                     cout << productoTienda[i]["categoria"].asString()<< endl;
-                    productos->IngresandoProducto(stoi(productoTienda[i]["id"].asString()),productoTienda[i]["categoria"].asString(), stod(productoTienda[i]["precio"].asString()),productoTienda[i]["nombre"].asString(), productoTienda[i]["src"].asString());
+                    productos->IngresandoProductoT(stoi(productoTienda[i]["id"].asString()),productoTienda[i]["categoria"].asString(), stod(productoTienda[i]["precio"].asString()),productoTienda[i]["nombre"].asString(), productoTienda[i]["src"].asString());
                 }
+                productos->MostrarTienda();
                 for(int i=0; i<movimientos.size(); ++i){
                     cout << movimientos[i]["x"].asString()<< endl;
+                    tutorial->IngresandoTutorial(stoi(movimientos[i]["x"].asString()),stoi(movimientos[i]["y"].asString()));
                 }
-                
+                tutorial->MostrarTutorial();
                 break;
             }
             case 2:{

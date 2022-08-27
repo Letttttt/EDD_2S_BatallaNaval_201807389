@@ -3,18 +3,8 @@
 #include <string>
 using namespace std;
 
-struct NodoPila{
-    int x;
-    int y;
-    
-    NodoPila* siguiente;
-}*principio4;
-
-Pila::Pila() {
-}
-
 void Pila::IngresandoPila(int x, int y) {
-    NodoPila*nuevo=new NodoPila();
+    Nodo*nuevo=new Nodo();
     nuevo->x=x;
     nuevo->y=y;
     if(principio4==NULL){
@@ -24,4 +14,13 @@ void Pila::IngresandoPila(int x, int y) {
         principio4=nuevo;
     }
 }
+
+void Pila::MostrarPila(){
+    Nodo*temp=principio4;
+    while(temp!=NULL){
+        cout << "Coordenadas: " << temp->x +" " << temp->y << endl;
+        temp=temp->siguiente;
+    }
+}
+
 
