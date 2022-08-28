@@ -21,6 +21,7 @@ public:
     bool BuscarUsuario(string);
     void MostrarElementos();
     NodoUsuario* VerificarLogin(string, string);
+    void Graficando();
 
 };
 

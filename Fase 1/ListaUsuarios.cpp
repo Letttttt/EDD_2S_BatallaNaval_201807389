@@ -65,4 +65,36 @@ NodoUsuario* ListaUsuarios::VerificarLogin(string nick, string pass) {
         temp = temp->siguiente;
     }
     return NULL;
-} 
+}
+
+void ListaUsuarios::Graficando() {
+    string grafica = "digraph G{\n node[shape=box3d];\n rankdir=\"LR\"; \n label=\"Usuarios\";";
+    string nodos;
+    string ruta;
+    NodoUsuario*temp = principio;
+    int cont = 0;
+    while (cont < contador) {
+        nodos += "node" + cont + "[label=\"Nickname " + temp->user->Nickname + "\n Contraseña: " + temp->user->Password + "\n Edad: " + to_string(temp->user->Edad) + "\"];\n";
+        if (temp->siguiente != principio) {
+            ruta += "node" + to_string(cont) + "->node" + to_string(cont + 1) + ";\n";
+        } else {
+            ruta += "node" + to_string(cont) + "->node0" + ";\n";
+        }
+        cont++;
+        temp = temp->siguiente;
+    }
+    grafica += nodos + ruta + "}";
+    cout << grafica << endl;
+    ofstream mostrargrafica;
+    mostrargrafica.open("ReporteUsuario.dot", ios::out);
+    if (mostrargrafica.fail()) {
+        cout << "No se creó el archivo.";
+        exit(1);
+    }
+    mostrargrafica << grafica;
+    mostrargrafica.close();
+    system("dot -Tpng ReporteUsuario.dot -o ReporteUsuario.png");
+
+
+
+}

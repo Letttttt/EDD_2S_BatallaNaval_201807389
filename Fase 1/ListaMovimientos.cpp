@@ -4,7 +4,7 @@ void ListaMovimientos::IngresandoMovimientos(string NombreMovimiento, Pila* movi
     NodoMovimiento*nuevo = new NodoMovimiento();
     nuevo->NombreMovimiento = NombreMovimiento;
     nuevo->movimientos = movimientos;
-    if (principio5 != NULL) {
+    if (principio5 == NULL) {
         principio5 = nuevo;
     } else {
         nuevo->siguiente = principio5;
@@ -14,8 +14,11 @@ void ListaMovimientos::IngresandoMovimientos(string NombreMovimiento, Pila* movi
 
 void ListaMovimientos::MostrarMovimientos() {
     NodoMovimiento*temp = principio5;
+    cout << " *** La lista de movimientos es: " << endl;
     while (temp != NULL) {
-        cout << temp->NombreMovimiento << endl;
+        cout << "El nombre es: " << temp->NombreMovimiento << endl;
+        temp->movimientos->MostrarPila();
+        cout << "    <--------> " << endl;
         temp = temp->siguiente;
     }
 }

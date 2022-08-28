@@ -79,7 +79,7 @@ void Menu::Mostrar() {
             }
             case 4:
             {
-
+                Reportes();
                 break;
             }
             case 5:
@@ -153,7 +153,7 @@ void Menu::RegistrarUsuario() {
 
 void Menu::Login() {
     bool sesion = false;
-    //bool decision;
+    string decision;
     string nick;
     string pass;
     int edad;
@@ -295,17 +295,42 @@ void Menu::Login() {
                 }
                 case 3:
                 {
-                    tutorial->Graficando();
+                    tutorial->MostrarTutorial();
                     break;
                 }
                 case 4:
                 {
-
+                    productos->MostrarTienda();
                     break;
                 }
                 case 5:
                 {
-
+                    int x;
+                    int y;
+                    auxsesion->user->Monedas++;
+                    Pila* nuevom = new Pila();
+                    do {
+                        cout << " *** Escriba sus coordenadas: " << endl;
+                        cout << "Ingrese coordenada en x: ";
+                        cin >> x;
+                        cout << x << endl;
+                        cout << "Ingrese coordenada en y: ";
+                        cin >> y;
+                        cout << y << endl;
+                        nuevom->IngresandoPila(x, y);
+                        cout << " *** ¿Desea ingresar otra coordenada?" << endl;
+                        cout << "1. Si" << endl;
+                        cout << "2. No" << endl;
+                        cin >> opcion;
+                        cout << "La opción es: ";
+                        cout << opcion << endl;
+                    } while (opcion != 2);
+                    cout << "Escriba el nombre de los movimientos: ";
+                    cin >> decision;
+                    cout << decision << endl;
+                    auxsesion->user->movimientos.IngresandoMovimientos(decision, nuevom);
+                    auxsesion->user->movimientos.MostrarMovimientos();
+                    nuevom = NULL;
                     break;
                 }
                 default:
@@ -318,3 +343,44 @@ void Menu::Login() {
     }
 }
 
+void Menu::Reportes() {
+    int opcion;
+    do {
+        cout << "\n#*********** SECCIÓN DE REPORTES ***********#";
+        cout << "\n#                                           #";
+        cout << "\n# 1. Estructuras graficadas                 #";
+        cout << "\n# 2. Lista usuarios ordenados               #";
+        cout << "\n# 3. Lista articulos ordenados              #";
+        cout << "\n# 4. Salir                                  #";
+        cout << "\n#*******************************************#";
+        cout << "\n\n Ingrese una opción: ";
+        cin >> opcion;
+        cout << opcion << endl;
+        switch (opcion) {
+            case 1:
+            {
+                usuarios->Graficando();
+                tutorial->Graficando();
+                break;
+            }
+            case 2:
+            {
+                break;
+            }
+            case 3:
+            {
+                break;
+            }
+            case 4:
+            {
+                cout << "\n Regresando al menú principal. \n";
+                break;
+            }
+            default:
+            {
+                cout << "\n\n Por favor, ingrese una opción correcta: \n\n";
+            }
+        }
+    } while (opcion != 4);
+
+}

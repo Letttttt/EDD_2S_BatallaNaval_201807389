@@ -19,9 +19,12 @@ void Tutorial::IngresandoTutorial(int x, int y) {
 
 void Tutorial::MostrarTutorial() {
     Nodo*temp = principio2;
+    cout << "Dimensión: Ancho: " << temp->x << ", Alto: " << temp->y << endl;
     while (temp != NULL) {
-        cout << "Coordenadas: " << temp->x << " " << temp->y << endl;
         temp = temp->siguiente;
+        if (temp != NULL) {
+            cout << "Coordenadas: x: " << temp->x << ", y: " << temp->y << endl;
+        }
     }
 }
 
@@ -32,18 +35,18 @@ void Tutorial::Graficando() {
     Nodo*temp = principio2;
     while (temp != NULL) {
         if (temp == principio2) {
-            nodos += "nodeP[label=\"Dimensión de la tabla: \n Ancho: " + to_string(temp->x) + "\n Alto: " + to_string(temp->y)+ "\"];\n";
+            nodos += "nodeP[label=\"Dimensión de la tabla: \n Ancho: " + to_string(temp->x) + "\n Alto: " + to_string(temp->y) + "\"];\n";
             if (temp->siguiente != NULL) {
-                nodos += "node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->siguiente->x) + "\n eje y: " + to_string(temp->siguiente->y)+ "\"];\n";
-                ruta = "nodeP->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y)+";\n";
-                temp=temp->siguiente;
+                nodos += "node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->siguiente->x) + "\n eje y: " + to_string(temp->siguiente->y) + "\"];\n";
+                ruta = "nodeP->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y) + ";\n";
+                temp = temp->siguiente;
             }
 
         } else {
-            nodos += "node" + to_string(temp->x) + "_" + to_string(temp->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->x) + "\n eje y: " + to_string(temp->y)+ "\"];\n";
+            nodos += "node" + to_string(temp->x) + "_" + to_string(temp->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->x) + "\n eje y: " + to_string(temp->y) + "\"];\n";
         }
         if (temp->siguiente != NULL) {
-            ruta += "node"+to_string(temp->x) + "_" + to_string(temp->y)+"->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y)+";\n";
+            ruta += "node" + to_string(temp->x) + "_" + to_string(temp->y) + "->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y) + ";\n";
         }
         temp = temp->siguiente;
     }
@@ -52,7 +55,7 @@ void Tutorial::Graficando() {
     ofstream mostrargrafica;
     mostrargrafica.open("ReporteTutorial.dot", ios::out);
     if (mostrargrafica.fail()) {
-        cout << "no se pudo crear el archivo";
+        cout << "No se creó el archivo.";
         exit(1);
     }
     mostrargrafica << grafica;

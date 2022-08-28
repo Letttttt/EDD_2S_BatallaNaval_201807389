@@ -3,6 +3,7 @@
 #include "ListaUsuarios.h"
 #include "Tienda.h"
 #include "Tutorial.h"
+#include "Pila.h"
 #include <cstring>
 
 using namespace std;
@@ -16,6 +17,7 @@ public:
     void Mostrar();
     void RegistrarUsuario();
     void Login();
+    void Reportes();
 private:
 
 };

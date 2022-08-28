@@ -29,6 +29,9 @@ void Tienda::IngresandoProductoT(string id, string categoria, double precio, str
 }
 void Tienda::MostrarTienda() {
     NodoCategoria* temp = principio3;
+    cout << " ***  Bienvenido a Tienda  *** " << endl;
+    cout << " ***  Observe nuestros artículos por categoría: " << endl;
+    cout << " --------------------------------------------------- " << endl;
     while (temp != NULL) {
         cout << "La categoria es: " << temp->NombreCategoria << endl;
         temp->productos.MostrarProducto();
