@@ -7,7 +7,7 @@ using namespace std;
 
 class NodoProducto {
 public:
-    int id;
+    string id;
     string categoria;
     double precio;
     string nombre;

@@ -4,12 +4,14 @@
 #include <string>
 #include "Usuario.h"
 #include "NodoUsuario.h"
+#include "sha256.h"
 
 using namespace std;
 
 class ListaUsuarios {
-    int contador = 0;
+    
 public:
+    int contador = 0;
     NodoUsuario*principio, *ultimo;
 
     ListaUsuarios() {
@@ -18,6 +20,7 @@ public:
     void Ingresar(string, string, int, int);
     bool BuscarUsuario(string);
     void MostrarElementos();
+    NodoUsuario* VerificarLogin(string, string);
 
 };
 

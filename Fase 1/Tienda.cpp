@@ -1,7 +1,7 @@
 #include "Tienda.h"
 #include <string>
 
-void Tienda::IngresandoProductoT(int id, string categoria, double precio, string nombre, string desconocido) {
+void Tienda::IngresandoProductoT(string id, string categoria, double precio, string nombre, string desconocido) {
     if (principio3 == NULL) {
         NodoCategoria* nuevo = new NodoCategoria();
         nuevo->NombreCategoria = categoria;

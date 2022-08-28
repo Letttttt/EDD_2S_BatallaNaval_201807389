@@ -1,0 +1,19 @@
+digraph G{
+ node[shape=box3d];
+ rankdir="LR"; 
+ label="Tutorial";nodeP[label="Dimensión de la tabla: 
+ Ancho: 20
+ Alto: 40"];
+node20_25[label="Coordenada
+ eje x: 20
+ eje y: 25"];
+node30_35[label="Coordenada
+ eje x: 30
+ eje y: 35"];
+node40_45[label="Coordenada
+ eje x: 40
+ eje y: 45"];
+nodeP->node20_25;
+node20_25->node30_35;
+node30_35->node40_45;
+}

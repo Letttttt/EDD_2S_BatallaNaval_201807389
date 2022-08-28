@@ -1,7 +1,7 @@
 #include "ListaProductos.h"
 #include <string>
 
-void ListaProductos::IngresandoProducto(int id, string categoria, double precio, string nombre, string desconocido) {
+void ListaProductos::IngresandoProducto(string id, string categoria, double precio, string nombre, string desconocido) {
     NodoProducto* nuevo = new NodoProducto();
     nuevo->id=id;
     nuevo->categoria=categoria;

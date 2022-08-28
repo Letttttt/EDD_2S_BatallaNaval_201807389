@@ -13,7 +13,7 @@ public:
     Tienda(){
         principio3=NULL;
     }
-    void IngresandoProductoT(int, string, double, string, string);
+    void IngresandoProductoT(string, string, double, string, string);
     void MostrarTienda();
 };
 

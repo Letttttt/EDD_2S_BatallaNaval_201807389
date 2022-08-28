@@ -7,7 +7,8 @@
 "articulos": [
 { "id": "1", "categoria": "uno", "precio": "20", "nombre": "arti", "src": "01" },
 { "id": "2", "categoria": "dos", "precio": "30", "nombre": "arti1", "src": "02" },
-{ "id": "3", "categoria": "tres", "precio": "40", "nombre": "arti2", "src": "03" }
+{ "id": "3", "categoria": "tres", "precio": "40", "nombre": "arti2", "src": "03" },
+{ "id": "4", "categoria": "dos", "precio": "100", "nombre": "articulo rep", "src": "03" }
 ],
 "tutorial": {
 "ancho":"20",

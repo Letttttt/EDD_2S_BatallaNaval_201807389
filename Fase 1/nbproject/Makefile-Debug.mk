@@ -42,7 +42,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Pila.o \
 	${OBJECTDIR}/Tienda.o \
 	${OBJECTDIR}/Tutorial.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/sha256.o
 
 
 # C Compiler Flags
@@ -108,6 +109,11 @@ ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/sha256.o: sha256.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sha256.o sha256.cpp
 
 # Subprojects
 .build-subprojects:

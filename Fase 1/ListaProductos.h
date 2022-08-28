@@ -12,7 +12,7 @@ public:
     ListaProductos(){
         principio1=NULL;
     }
-    void IngresandoProducto(int, string, double, string, string);
+    void IngresandoProducto(string, string, double, string, string);
     void MostrarProducto();
 
 };

@@ -24,3 +24,38 @@ void Tutorial::MostrarTutorial() {
         temp = temp->siguiente;
     }
 }
+
+void Tutorial::Graficando() {
+    string grafica = "digraph G{\n node[shape=box3d];\n rankdir=\"LR\"; \n label=\"Tutorial\";";
+    string nodos = "";
+    string ruta = "";
+    Nodo*temp = principio2;
+    while (temp != NULL) {
+        if (temp == principio2) {
+            nodos += "nodeP[label=\"Dimensión de la tabla: \n Ancho: " + to_string(temp->x) + "\n Alto: " + to_string(temp->y)+ "\"];\n";
+            if (temp->siguiente != NULL) {
+                nodos += "node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->siguiente->x) + "\n eje y: " + to_string(temp->siguiente->y)+ "\"];\n";
+                ruta = "nodeP->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y)+";\n";
+                temp=temp->siguiente;
+            }
+
+        } else {
+            nodos += "node" + to_string(temp->x) + "_" + to_string(temp->y) + "[label=\"Coordenada\n eje x: " + to_string(temp->x) + "\n eje y: " + to_string(temp->y)+ "\"];\n";
+        }
+        if (temp->siguiente != NULL) {
+            ruta += "node"+to_string(temp->x) + "_" + to_string(temp->y)+"->node" + to_string(temp->siguiente->x) + "_" + to_string(temp->siguiente->y)+";\n";
+        }
+        temp = temp->siguiente;
+    }
+    grafica += nodos + ruta + "}";
+    cout << grafica << endl;
+    ofstream mostrargrafica;
+    mostrargrafica.open("ReporteTutorial.dot", ios::out);
+    if (mostrargrafica.fail()) {
+        cout << "no se pudo crear el archivo";
+        exit(1);
+    }
+    mostrargrafica << grafica;
+    mostrargrafica.close();
+    system("dot -Tpng ReporteTutorial.dot -o ReporteTutorial.png");
+}

@@ -3,6 +3,7 @@
 #define TUTORIAL_H
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "Nodo.h"
 using namespace std;
 
@@ -14,6 +15,7 @@ public:
     }
     void IngresandoTutorial(int, int);
     void MostrarTutorial();
+    void Graficando();
 
 };
 

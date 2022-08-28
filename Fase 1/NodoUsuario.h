@@ -1,4 +1,3 @@
-
 #ifndef NODOUSUARIO_H
 #define NODOUSUARIO_H
 #include <iostream>
