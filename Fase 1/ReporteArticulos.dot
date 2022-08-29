@@ -1,0 +1,734 @@
+digraph G{
+ node[shape=box3d];
+ label="Artículos";node0[label="Categoría: Granite Surfaces" group=1];
+node0->node1;
+nodo3f0e30e5565b48f6b877a4a27ab14a4f[label="Producto: Colobus guerza
+Precio: 8817.000000"];
+nodo3a42323430a04b81b510c034bc9dd8af[label="Producto: Pseudalopex gymnocercus
+Precio: 8950.000000"];
+nodo4dbfb03e4ee34449a765e94f4148d342[label="Producto: Grus rubicundus
+Precio: -214748.360000"];
+nodo6f51e0a173194fa095b3aecda417f80e[label="Producto: Hippotragus equinus
+Precio: -214748.360000"];
+node0->nodo3f0e30e5565b48f6b877a4a27ab14a4f;
+nodo3f0e30e5565b48f6b877a4a27ab14a4f->nodo3a42323430a04b81b510c034bc9dd8af;
+nodo3a42323430a04b81b510c034bc9dd8af->nodo4dbfb03e4ee34449a765e94f4148d342;
+nodo4dbfb03e4ee34449a765e94f4148d342->nodo6f51e0a173194fa095b3aecda417f80e;
+{rank=same; node0;nodo3f0e30e5565b48f6b877a4a27ab14a4f;nodo3a42323430a04b81b510c034bc9dd8af;nodo4dbfb03e4ee34449a765e94f4148d342;nodo6f51e0a173194fa095b3aecda417f80e;}
+node1[label="Categoría: Roofing (Metal)" group=1];
+node1->node2;
+nodob1f8da3bc87b46bf80a62bcf8af22d35[label="Producto: Crax sp.
+Precio: 998.000000"];
+nodo2f591fc3c5334d92a67629fd30633510[label="Producto: Bubalus arnee
+Precio: 95808.000000"];
+nodobf2c0275c57c4c7e8e9e602bd71e7688[label="Producto: Oryx gazella callotis
+Precio: 896.000000"];
+nodof5b8f739cab74ec3ae300076ac057d2f[label="Producto: Myrmecophaga tridactyla
+Precio: 986.000000"];
+nodo11e1167f432044699622b846ca01cb91[label="Producto: Alectura lathami
+Precio: 8216.000000"];
+nodoe4862372a87e417d96eae6dea3426b34[label="Producto: Butorides striatus
+Precio: 70.000000"];
+nodo61a7d0834c97498ebeb6338ff3b1f96f[label="Producto: Phoenicopterus ruber
+Precio: -214748.360000"];
+nodo70beffb3f5a6462eb9c8189693a591c2[label="Producto: Globicephala melas
+Precio: 1.000000"];
+node1->nodob1f8da3bc87b46bf80a62bcf8af22d35;
+nodob1f8da3bc87b46bf80a62bcf8af22d35->nodo2f591fc3c5334d92a67629fd30633510;
+nodo2f591fc3c5334d92a67629fd30633510->nodobf2c0275c57c4c7e8e9e602bd71e7688;
+nodobf2c0275c57c4c7e8e9e602bd71e7688->nodof5b8f739cab74ec3ae300076ac057d2f;
+nodof5b8f739cab74ec3ae300076ac057d2f->nodo11e1167f432044699622b846ca01cb91;
+nodo11e1167f432044699622b846ca01cb91->nodoe4862372a87e417d96eae6dea3426b34;
+nodoe4862372a87e417d96eae6dea3426b34->nodo61a7d0834c97498ebeb6338ff3b1f96f;
+nodo61a7d0834c97498ebeb6338ff3b1f96f->nodo70beffb3f5a6462eb9c8189693a591c2;
+{rank=same; node1;nodob1f8da3bc87b46bf80a62bcf8af22d35;nodo2f591fc3c5334d92a67629fd30633510;nodobf2c0275c57c4c7e8e9e602bd71e7688;nodof5b8f739cab74ec3ae300076ac057d2f;nodo11e1167f432044699622b846ca01cb91;nodoe4862372a87e417d96eae6dea3426b34;nodo61a7d0834c97498ebeb6338ff3b1f96f;nodo70beffb3f5a6462eb9c8189693a591c2;}
+node2[label="Categoría: Waterproofing & Caulking" group=1];
+node2->node3;
+nodoa989148c65c24a53a09c05dc5288b53d[label="Producto: Lepus townsendii
+Precio: 92.000000"];
+nodo6ae9461645e2498f8a40e54b678e09ce[label="Producto: Lycosa godeffroyi
+Precio: 8.000000"];
+nodo9cd4be8b90ac4d1e886d7b98ace99499[label="Producto: Bison bison
+Precio: 5.000000"];
+nodod7826d8c38f44a23aa23e213252c1ee8[label="Producto: Meleagris gallopavo
+Precio: -214748.360000"];
+nodob7dd6757c37d45adacb03c1fe95dbd7b[label="Producto: Phasianus colchicus
+Precio: 96812.000000"];
+nodoa2edb4d1b5c54fa1adf21631cce503c0[label="Producto: Larus dominicanus
+Precio: 0.000000"];
+nodo787ce7e7800d44cba7d72e5706012422[label="Producto: Ramphastos tucanus
+Precio: 410.000000"];
+node2->nodoa989148c65c24a53a09c05dc5288b53d;
+nodoa989148c65c24a53a09c05dc5288b53d->nodo6ae9461645e2498f8a40e54b678e09ce;
+nodo6ae9461645e2498f8a40e54b678e09ce->nodo9cd4be8b90ac4d1e886d7b98ace99499;
+nodo9cd4be8b90ac4d1e886d7b98ace99499->nodod7826d8c38f44a23aa23e213252c1ee8;
+nodod7826d8c38f44a23aa23e213252c1ee8->nodob7dd6757c37d45adacb03c1fe95dbd7b;
+nodob7dd6757c37d45adacb03c1fe95dbd7b->nodoa2edb4d1b5c54fa1adf21631cce503c0;
+nodoa2edb4d1b5c54fa1adf21631cce503c0->nodo787ce7e7800d44cba7d72e5706012422;
+{rank=same; node2;nodoa989148c65c24a53a09c05dc5288b53d;nodo6ae9461645e2498f8a40e54b678e09ce;nodo9cd4be8b90ac4d1e886d7b98ace99499;nodod7826d8c38f44a23aa23e213252c1ee8;nodob7dd6757c37d45adacb03c1fe95dbd7b;nodoa2edb4d1b5c54fa1adf21631cce503c0;nodo787ce7e7800d44cba7d72e5706012422;}
+node3[label="Categoría: HVAC" group=1];
+node3->node4;
+nodoc3d9d91bda3e4f03aa930fbec920be75[label="Producto: Lemur catta
+Precio: 13211.000000"];
+nodoff6d2ffd474b4977adb5ed3291448ba6[label="Producto: Lepus townsendii
+Precio: 32.000000"];
+nodocef2de7da4424b729cd9b0c12990d8ca[label="Producto: Gazella thompsonii
+Precio: 3385.000000"];
+nodo1f637d52d8c2447a8c700d8f9953e437[label="Producto: unavailable
+Precio: 25.000000"];
+nodo3b1be1d8774640d6b80b673a9f4cf681[label="Producto: Chlidonias leucopterus
+Precio: -214748.360000"];
+nodo64a56050da184f4b97f918fcc56814c8[label="Producto: Passer domesticus
+Precio: 9.000000"];
+nodoe3c2736874e44344a7ae625c3b58cb45[label="Producto: Phascogale calura
+Precio: 194.000000"];
+nodo78a36512a4054db2a3af3febb986a7fb[label="Producto: Heloderma horridum
+Precio: 243.000000"];
+node3->nodoc3d9d91bda3e4f03aa930fbec920be75;
+nodoc3d9d91bda3e4f03aa930fbec920be75->nodoff6d2ffd474b4977adb5ed3291448ba6;
+nodoff6d2ffd474b4977adb5ed3291448ba6->nodocef2de7da4424b729cd9b0c12990d8ca;
+nodocef2de7da4424b729cd9b0c12990d8ca->nodo1f637d52d8c2447a8c700d8f9953e437;
+nodo1f637d52d8c2447a8c700d8f9953e437->nodo3b1be1d8774640d6b80b673a9f4cf681;
+nodo3b1be1d8774640d6b80b673a9f4cf681->nodo64a56050da184f4b97f918fcc56814c8;
+nodo64a56050da184f4b97f918fcc56814c8->nodoe3c2736874e44344a7ae625c3b58cb45;
+nodoe3c2736874e44344a7ae625c3b58cb45->nodo78a36512a4054db2a3af3febb986a7fb;
+{rank=same; node3;nodoc3d9d91bda3e4f03aa930fbec920be75;nodoff6d2ffd474b4977adb5ed3291448ba6;nodocef2de7da4424b729cd9b0c12990d8ca;nodo1f637d52d8c2447a8c700d8f9953e437;nodo3b1be1d8774640d6b80b673a9f4cf681;nodo64a56050da184f4b97f918fcc56814c8;nodoe3c2736874e44344a7ae625c3b58cb45;nodo78a36512a4054db2a3af3febb986a7fb;}
+node4[label="Categoría: Site Furnishings" group=1];
+node4->node5;
+nodoef134d34d90447e281989a6eae0bc759[label="Producto: Manouria emys
+Precio: 158.000000"];
+nodo2bae79d6905442e396c8135f1e546aab[label="Producto: Macropus rufus
+Precio: 8340.000000"];
+nodo66b7a8c94e5a4aa4acae597199abb103[label="Producto: Hippotragus niger
+Precio: 2360.000000"];
+nodo4c3ee4ceb89d4914b9a13fcbb51a0947[label="Producto: Antechinus flavipes
+Precio: 5.000000"];
+nodob118b3421ee840c6a9b828abc3281eed[label="Producto: Hystrix cristata
+Precio: -214748.360000"];
+nodoc865221c5d5d4e629efb9aa24a4c7030[label="Producto: Fregata magnificans
+Precio: 4.000000"];
+nodo403d737610694a38b75cc27eb3013ad4[label="Producto: Varanus salvator
+Precio: 9.000000"];
+nodo33151b1656904cba97f235f713d8006e[label="Producto: Buteo regalis
+Precio: 7.000000"];
+node4->nodoef134d34d90447e281989a6eae0bc759;
+nodoef134d34d90447e281989a6eae0bc759->nodo2bae79d6905442e396c8135f1e546aab;
+nodo2bae79d6905442e396c8135f1e546aab->nodo66b7a8c94e5a4aa4acae597199abb103;
+nodo66b7a8c94e5a4aa4acae597199abb103->nodo4c3ee4ceb89d4914b9a13fcbb51a0947;
+nodo4c3ee4ceb89d4914b9a13fcbb51a0947->nodob118b3421ee840c6a9b828abc3281eed;
+nodob118b3421ee840c6a9b828abc3281eed->nodoc865221c5d5d4e629efb9aa24a4c7030;
+nodoc865221c5d5d4e629efb9aa24a4c7030->nodo403d737610694a38b75cc27eb3013ad4;
+nodo403d737610694a38b75cc27eb3013ad4->nodo33151b1656904cba97f235f713d8006e;
+{rank=same; node4;nodoef134d34d90447e281989a6eae0bc759;nodo2bae79d6905442e396c8135f1e546aab;nodo66b7a8c94e5a4aa4acae597199abb103;nodo4c3ee4ceb89d4914b9a13fcbb51a0947;nodob118b3421ee840c6a9b828abc3281eed;nodoc865221c5d5d4e629efb9aa24a4c7030;nodo403d737610694a38b75cc27eb3013ad4;nodo33151b1656904cba97f235f713d8006e;}
+node5[label="Categoría: Doors, Frames & Hardware" group=1];
+node5->node6;
+nodo730607bb59d54c7a92ec8e25ec213c74[label="Producto: Hystrix cristata
+Precio: 7294.000000"];
+nodocf31d78fd5024984a2f674ba8391b0e3[label="Producto: Vanellus chilensis
+Precio: -214748.360000"];
+nodo473b6cf88f4143509c2321f7001bcef2[label="Producto: Mephitis mephitis
+Precio: 84.000000"];
+nodo27427e2e1aa04506be0050913422c098[label="Producto: Papio cynocephalus
+Precio: 62432.000000"];
+nodo419262e571ec470699a87406db37ca5c[label="Producto: Leptoptilos crumeniferus
+Precio: 8048.000000"];
+nodo2d84a3d5f829457d87df8af045022196[label="Producto: Diomedea irrorata
+Precio: 7688.000000"];
+nodo6da728d23bdb4b1e9ec7ac74e803a4f3[label="Producto: Hymenolaimus malacorhynchus
+Precio: 6416.000000"];
+node5->nodo730607bb59d54c7a92ec8e25ec213c74;
+nodo730607bb59d54c7a92ec8e25ec213c74->nodocf31d78fd5024984a2f674ba8391b0e3;
+nodocf31d78fd5024984a2f674ba8391b0e3->nodo473b6cf88f4143509c2321f7001bcef2;
+nodo473b6cf88f4143509c2321f7001bcef2->nodo27427e2e1aa04506be0050913422c098;
+nodo27427e2e1aa04506be0050913422c098->nodo419262e571ec470699a87406db37ca5c;
+nodo419262e571ec470699a87406db37ca5c->nodo2d84a3d5f829457d87df8af045022196;
+nodo2d84a3d5f829457d87df8af045022196->nodo6da728d23bdb4b1e9ec7ac74e803a4f3;
+{rank=same; node5;nodo730607bb59d54c7a92ec8e25ec213c74;nodocf31d78fd5024984a2f674ba8391b0e3;nodo473b6cf88f4143509c2321f7001bcef2;nodo27427e2e1aa04506be0050913422c098;nodo419262e571ec470699a87406db37ca5c;nodo2d84a3d5f829457d87df8af045022196;nodo6da728d23bdb4b1e9ec7ac74e803a4f3;}
+node6[label="Categoría: Construction Clean and Final Clean" group=1];
+node6->node7;
+nodo9df9fdaafefd4509955d7c236baef73d[label="Producto: Hystrix indica
+Precio: 541.000000"];
+nodo979ac537b0bc4331bd2485f82cd31fec[label="Producto: Spilogale gracilis
+Precio: 46.000000"];
+nodo2dc278cd03874f50bfbccd7a800300e9[label="Producto: Bison bison
+Precio: 42.000000"];
+nodod053a75efb624c29ac05556c85d1e143[label="Producto: Zosterops pallidus
+Precio: 497.000000"];
+nodoee0a7422de8946539bba1c6785c63abb[label="Producto: Hyaena hyaena
+Precio: 824.000000"];
+nodod054a0b110fe459688b95785a4665b14[label="Producto: Choriotis kori
+Precio: 3.000000"];
+nodo0d74c6f18b1449529adfd52506919f31[label="Producto: Choloepus hoffmani
+Precio: 74430.005000"];
+nodoe40874c762024253977505eb62238c98[label="Producto: Limosa haemastica
+Precio: 2.000000"];
+node6->nodo9df9fdaafefd4509955d7c236baef73d;
+nodo9df9fdaafefd4509955d7c236baef73d->nodo979ac537b0bc4331bd2485f82cd31fec;
+nodo979ac537b0bc4331bd2485f82cd31fec->nodo2dc278cd03874f50bfbccd7a800300e9;
+nodo2dc278cd03874f50bfbccd7a800300e9->nodod053a75efb624c29ac05556c85d1e143;
+nodod053a75efb624c29ac05556c85d1e143->nodoee0a7422de8946539bba1c6785c63abb;
+nodoee0a7422de8946539bba1c6785c63abb->nodod054a0b110fe459688b95785a4665b14;
+nodod054a0b110fe459688b95785a4665b14->nodo0d74c6f18b1449529adfd52506919f31;
+nodo0d74c6f18b1449529adfd52506919f31->nodoe40874c762024253977505eb62238c98;
+{rank=same; node6;nodo9df9fdaafefd4509955d7c236baef73d;nodo979ac537b0bc4331bd2485f82cd31fec;nodo2dc278cd03874f50bfbccd7a800300e9;nodod053a75efb624c29ac05556c85d1e143;nodoee0a7422de8946539bba1c6785c63abb;nodod054a0b110fe459688b95785a4665b14;nodo0d74c6f18b1449529adfd52506919f31;nodoe40874c762024253977505eb62238c98;}
+node7[label="Categoría: Painting & Vinyl Wall Covering" group=1];
+node7->node8;
+nodoe520db96bd7d4f25b1eddc27e50beb93[label="Producto: Dendrocitta vagabunda
+Precio: 192550.000000"];
+nodoc8a8d9b2b7e646898ea7440a59145700[label="Producto: Acrobates pygmaeus
+Precio: 994.000000"];
+nodo23e4c62c199e48e9bfa2508701d1af8e[label="Producto: Eira barbata
+Precio: 73214.005000"];
+node7->nodoe520db96bd7d4f25b1eddc27e50beb93;
+nodoe520db96bd7d4f25b1eddc27e50beb93->nodoc8a8d9b2b7e646898ea7440a59145700;
+nodoc8a8d9b2b7e646898ea7440a59145700->nodo23e4c62c199e48e9bfa2508701d1af8e;
+{rank=same; node7;nodoe520db96bd7d4f25b1eddc27e50beb93;nodoc8a8d9b2b7e646898ea7440a59145700;nodo23e4c62c199e48e9bfa2508701d1af8e;}
+node8[label="Categoría: Temp Fencing, Decorative Fencing and Gates" group=1];
+node8->node9;
+nodof00578455f5c4657895f9d399b51199a[label="Producto: Damaliscus lunatus
+Precio: 9.000000"];
+nodo963880a2eadc44c1b3fb805583f2210c[label="Producto: Aonyx cinerea
+Precio: 345.000000"];
+nodo21a6d2d449574071aaa1150d99a287ab[label="Producto: Ephippiorhynchus mycteria
+Precio: -214748.360000"];
+nodo2de92714ec5b43abad9361e7c5feb7f0[label="Producto: Phoeniconaias minor
+Precio: 64.000000"];
+nodo403523fe52814618814ba149971e54c1[label="Producto: Kobus defassa
+Precio: 65.000000"];
+nodobc633d796e104fa58e41ea2d75874ba0[label="Producto: Coendou prehensilis
+Precio: 294.000000"];
+nodoffcf007be7464a5ab4066d1cc99233b2[label="Producto: Grus antigone
+Precio: 3438.000000"];
+node8->nodof00578455f5c4657895f9d399b51199a;
+nodof00578455f5c4657895f9d399b51199a->nodo963880a2eadc44c1b3fb805583f2210c;
+nodo963880a2eadc44c1b3fb805583f2210c->nodo21a6d2d449574071aaa1150d99a287ab;
+nodo21a6d2d449574071aaa1150d99a287ab->nodo2de92714ec5b43abad9361e7c5feb7f0;
+nodo2de92714ec5b43abad9361e7c5feb7f0->nodo403523fe52814618814ba149971e54c1;
+nodo403523fe52814618814ba149971e54c1->nodobc633d796e104fa58e41ea2d75874ba0;
+nodobc633d796e104fa58e41ea2d75874ba0->nodoffcf007be7464a5ab4066d1cc99233b2;
+{rank=same; node8;nodof00578455f5c4657895f9d399b51199a;nodo963880a2eadc44c1b3fb805583f2210c;nodo21a6d2d449574071aaa1150d99a287ab;nodo2de92714ec5b43abad9361e7c5feb7f0;nodo403523fe52814618814ba149971e54c1;nodobc633d796e104fa58e41ea2d75874ba0;nodoffcf007be7464a5ab4066d1cc99233b2;}
+node9[label="Categoría: Curb & Gutter" group=1];
+node9->node10;
+nodo6dff5ddb5b4e4f5fbe1d17e594bfddf0[label="Producto: Castor canadensis
+Precio: 47.000000"];
+node9->nodo6dff5ddb5b4e4f5fbe1d17e594bfddf0;
+{rank=same; node9;nodo6dff5ddb5b4e4f5fbe1d17e594bfddf0;}
+node10[label="Categoría: Framing (Wood)" group=1];
+node10->node11;
+nodo5e0a1a6f34854d16a2ad96e63056ba3c[label="Producto: Anitibyx armatus
+Precio: 400.000000"];
+nodoeac9dc942aad458d813fe8e3b7b8cf98[label="Producto: Hystrix cristata
+Precio: 8466.000000"];
+nodo162ff91d60ec45d8abd86800672aeecf[label="Producto: Lama glama
+Precio: 831.000000"];
+nodof6fd1f531046420381b2630ad499e672[label="Producto: Thalasseus maximus
+Precio: 782.000000"];
+nodof382cbc56fee48458ef8714dcaa12110[label="Producto: Chelodina longicollis
+Precio: 31.000000"];
+nodo67ca2e58f2814878884b4ed1724fbc63[label="Producto: Vulpes chama
+Precio: 39.000000"];
+nodod888023cacc34d42925c1d3f16fe5dab[label="Producto: Scolopax minor
+Precio: 65.000000"];
+nodo89df9f31cad74fc495f40b1aad5eca37[label="Producto: Callorhinus ursinus
+Precio: 42862.000000"];
+nodo2197bd57e015474d89c56a8846f40c13[label="Producto: Globicephala melas
+Precio: 3755.000000"];
+node10->nodo5e0a1a6f34854d16a2ad96e63056ba3c;
+nodo5e0a1a6f34854d16a2ad96e63056ba3c->nodoeac9dc942aad458d813fe8e3b7b8cf98;
+nodoeac9dc942aad458d813fe8e3b7b8cf98->nodo162ff91d60ec45d8abd86800672aeecf;
+nodo162ff91d60ec45d8abd86800672aeecf->nodof6fd1f531046420381b2630ad499e672;
+nodof6fd1f531046420381b2630ad499e672->nodof382cbc56fee48458ef8714dcaa12110;
+nodof382cbc56fee48458ef8714dcaa12110->nodo67ca2e58f2814878884b4ed1724fbc63;
+nodo67ca2e58f2814878884b4ed1724fbc63->nodod888023cacc34d42925c1d3f16fe5dab;
+nodod888023cacc34d42925c1d3f16fe5dab->nodo89df9f31cad74fc495f40b1aad5eca37;
+nodo89df9f31cad74fc495f40b1aad5eca37->nodo2197bd57e015474d89c56a8846f40c13;
+{rank=same; node10;nodo5e0a1a6f34854d16a2ad96e63056ba3c;nodoeac9dc942aad458d813fe8e3b7b8cf98;nodo162ff91d60ec45d8abd86800672aeecf;nodof6fd1f531046420381b2630ad499e672;nodof382cbc56fee48458ef8714dcaa12110;nodo67ca2e58f2814878884b4ed1724fbc63;nodod888023cacc34d42925c1d3f16fe5dab;nodo89df9f31cad74fc495f40b1aad5eca37;nodo2197bd57e015474d89c56a8846f40c13;}
+node11[label="Categoría: Plumbing & Medical Gas" group=1];
+node11->node12;
+nodoa791da26c6a44e3e812432bcee05b471[label="Producto: Nucifraga columbiana
+Precio: 89.000000"];
+nodo399d1405a5e84790a98d6d21f896200d[label="Producto: Phalacrocorax niger
+Precio: 4582.000000"];
+nodoc766d121a4cd479c93fbe670f3145198[label="Producto: Cervus elaphus
+Precio: 46.000000"];
+nodod61af2c1d1e242409a2102cd4be5dad8[label="Producto: Erethizon dorsatum
+Precio: -214748.360000"];
+node11->nodoa791da26c6a44e3e812432bcee05b471;
+nodoa791da26c6a44e3e812432bcee05b471->nodo399d1405a5e84790a98d6d21f896200d;
+nodo399d1405a5e84790a98d6d21f896200d->nodoc766d121a4cd479c93fbe670f3145198;
+nodoc766d121a4cd479c93fbe670f3145198->nodod61af2c1d1e242409a2102cd4be5dad8;
+{rank=same; node11;nodoa791da26c6a44e3e812432bcee05b471;nodo399d1405a5e84790a98d6d21f896200d;nodoc766d121a4cd479c93fbe670f3145198;nodod61af2c1d1e242409a2102cd4be5dad8;}
+node12[label="Categoría: Electrical and Fire Alarm" group=1];
+node12->node13;
+nodod447b818541b4d1d9d8cb2dc586152de[label="Producto: Dasypus septemcincus
+Precio: 60048.000000"];
+nodo58708039ce934360b4a6e06f4b84bcf1[label="Producto: Macropus agilis
+Precio: 68.000000"];
+nodoe2d53f0d18d34cd18a002bb931e03d00[label="Producto: Sylvicapra grimma
+Precio: 808.000000"];
+nodoe29a1bb5efcb4df48e27ef2e54d093d1[label="Producto: Dasyurus viverrinus
+Precio: 1232.000000"];
+nodof7a49b4b8a4740af8fd298c12c753113[label="Producto: Madoqua kirkii
+Precio: 584.000000"];
+nodoc62cca77dd114f0d80665c088d19b1af[label="Producto: Spheniscus mendiculus
+Precio: 73152.000000"];
+node12->nodod447b818541b4d1d9d8cb2dc586152de;
+nodod447b818541b4d1d9d8cb2dc586152de->nodo58708039ce934360b4a6e06f4b84bcf1;
+nodo58708039ce934360b4a6e06f4b84bcf1->nodoe2d53f0d18d34cd18a002bb931e03d00;
+nodoe2d53f0d18d34cd18a002bb931e03d00->nodoe29a1bb5efcb4df48e27ef2e54d093d1;
+nodoe29a1bb5efcb4df48e27ef2e54d093d1->nodof7a49b4b8a4740af8fd298c12c753113;
+nodof7a49b4b8a4740af8fd298c12c753113->nodoc62cca77dd114f0d80665c088d19b1af;
+{rank=same; node12;nodod447b818541b4d1d9d8cb2dc586152de;nodo58708039ce934360b4a6e06f4b84bcf1;nodoe2d53f0d18d34cd18a002bb931e03d00;nodoe29a1bb5efcb4df48e27ef2e54d093d1;nodof7a49b4b8a4740af8fd298c12c753113;nodoc62cca77dd114f0d80665c088d19b1af;}
+node13[label="Categoría: Glass & Glazing" group=1];
+node13->node14;
+nodo112a020347d34fa1a39ebc05fe88d313[label="Producto: Ploceus rubiginosus
+Precio: 8.000000"];
+nodo600a2e129f91485bac7547667e44ae34[label="Producto: Ictalurus furcatus
+Precio: 616.000000"];
+nodoa333c630b0a44e9d969d851226035ab4[label="Producto: Orcinus orca
+Precio: 427.000000"];
+nodo0b97315886304dcfbbb2685cbc3a3b18[label="Producto: Phoenicopterus ruber
+Precio: -214748.360000"];
+nodo2178d463bc874fad9f7eab66fb9d6a98[label="Producto: Macaca fuscata
+Precio: -214748.360000"];
+nodo44bf3ed3096b475ebb5e333d84663eca[label="Producto: Haematopus ater
+Precio: 187.000000"];
+node13->nodo112a020347d34fa1a39ebc05fe88d313;
+nodo112a020347d34fa1a39ebc05fe88d313->nodo600a2e129f91485bac7547667e44ae34;
+nodo600a2e129f91485bac7547667e44ae34->nodoa333c630b0a44e9d969d851226035ab4;
+nodoa333c630b0a44e9d969d851226035ab4->nodo0b97315886304dcfbbb2685cbc3a3b18;
+nodo0b97315886304dcfbbb2685cbc3a3b18->nodo2178d463bc874fad9f7eab66fb9d6a98;
+nodo2178d463bc874fad9f7eab66fb9d6a98->nodo44bf3ed3096b475ebb5e333d84663eca;
+{rank=same; node13;nodo112a020347d34fa1a39ebc05fe88d313;nodo600a2e129f91485bac7547667e44ae34;nodoa333c630b0a44e9d969d851226035ab4;nodo0b97315886304dcfbbb2685cbc3a3b18;nodo2178d463bc874fad9f7eab66fb9d6a98;nodo44bf3ed3096b475ebb5e333d84663eca;}
+node14[label="Categoría: Ornamental Railings" group=1];
+node14->node15;
+nodo4febb8a19e0f4632bbc1d6046f1a7ad8[label="Producto: Damaliscus dorcas
+Precio: 7399.000000"];
+nodoc3efbf8e55bd4346b13fa0b2cdea77d9[label="Producto: Bettongia penicillata
+Precio: 17555.000000"];
+nodoeb33a1e138c2459bb0a467514f80d328[label="Producto: Grus canadensis
+Precio: 6.000000"];
+nodo816b09adc5454d54a2d3199a6095fde2[label="Producto: Canis lupus lycaon
+Precio: -214748.360000"];
+nodo915fba049bed46ae87a73149393325db[label="Producto: Tauraco porphyrelophus
+Precio: 71678.005000"];
+nodo32f48b0967314fa5afae006b456a7318[label="Producto: Vulpes vulpes
+Precio: 29.000000"];
+nodo4694817f90cb4a8189bd235085bc1159[label="Producto: Aonyx capensis
+Precio: 6807.000000"];
+nodo033b62b5ece54c7dbbfc7e6fa3f3cbe2[label="Producto: Macropus rufogriseus
+Precio: 94.000000"];
+nodo0a217681b32540cca08addc61b9ab5ba[label="Producto: Ciconia ciconia
+Precio: -214748.360000"];
+node14->nodo4febb8a19e0f4632bbc1d6046f1a7ad8;
+nodo4febb8a19e0f4632bbc1d6046f1a7ad8->nodoc3efbf8e55bd4346b13fa0b2cdea77d9;
+nodoc3efbf8e55bd4346b13fa0b2cdea77d9->nodoeb33a1e138c2459bb0a467514f80d328;
+nodoeb33a1e138c2459bb0a467514f80d328->nodo816b09adc5454d54a2d3199a6095fde2;
+nodo816b09adc5454d54a2d3199a6095fde2->nodo915fba049bed46ae87a73149393325db;
+nodo915fba049bed46ae87a73149393325db->nodo32f48b0967314fa5afae006b456a7318;
+nodo32f48b0967314fa5afae006b456a7318->nodo4694817f90cb4a8189bd235085bc1159;
+nodo4694817f90cb4a8189bd235085bc1159->nodo033b62b5ece54c7dbbfc7e6fa3f3cbe2;
+nodo033b62b5ece54c7dbbfc7e6fa3f3cbe2->nodo0a217681b32540cca08addc61b9ab5ba;
+{rank=same; node14;nodo4febb8a19e0f4632bbc1d6046f1a7ad8;nodoc3efbf8e55bd4346b13fa0b2cdea77d9;nodoeb33a1e138c2459bb0a467514f80d328;nodo816b09adc5454d54a2d3199a6095fde2;nodo915fba049bed46ae87a73149393325db;nodo32f48b0967314fa5afae006b456a7318;nodo4694817f90cb4a8189bd235085bc1159;nodo033b62b5ece54c7dbbfc7e6fa3f3cbe2;nodo0a217681b32540cca08addc61b9ab5ba;}
+node15[label="Categoría: RF Shielding" group=1];
+node15->node16;
+nodoc47438c42bfb4032aeeefd7280c9f114[label="Producto: Ara chloroptera
+Precio: 72.000000"];
+nodo154d9f6c34834edeb0f3eea545d02a7c[label="Producto: Amblyrhynchus cristatus
+Precio: 7.000000"];
+node15->nodoc47438c42bfb4032aeeefd7280c9f114;
+nodoc47438c42bfb4032aeeefd7280c9f114->nodo154d9f6c34834edeb0f3eea545d02a7c;
+{rank=same; node15;nodoc47438c42bfb4032aeeefd7280c9f114;nodo154d9f6c34834edeb0f3eea545d02a7c;}
+node16[label="Categoría: Sitework & Site Utilities" group=1];
+node16->node17;
+nodod9c075de23ee45ea9485e5906957b3f9[label="Producto: Dusicyon thous
+Precio: 183897.000000"];
+nododbc381471cef4536a0b60b82d8db2eb4[label="Producto: Mungos mungo
+Precio: 5907.000000"];
+nodo605b2771bfd042f9a9b93c0fe86873fe[label="Producto: Fregata magnificans
+Precio: 7811.000000"];
+nodo40d875bf950b48d989f0e4280cb083ea[label="Producto: unavailable
+Precio: 274.000000"];
+nodod75b38678035429a847cfa657b31f414[label="Producto: Amblyrhynchus cristatus
+Precio: 79.000000"];
+nodoe1b3f16e82bc4a6f8ac0c3d332bb1b16[label="Producto: Tayassu tajacu
+Precio: 3.000000"];
+nodo9d4d639e31a140d9a2da0e72a502a113[label="Producto: Snycerus caffer
+Precio: -214748.360000"];
+nodobbe5bdf8f6c04ae3bc0ecb31550a2800[label="Producto: Papio ursinus
+Precio: 45.000000"];
+node16->nodod9c075de23ee45ea9485e5906957b3f9;
+nodod9c075de23ee45ea9485e5906957b3f9->nododbc381471cef4536a0b60b82d8db2eb4;
+nododbc381471cef4536a0b60b82d8db2eb4->nodo605b2771bfd042f9a9b93c0fe86873fe;
+nodo605b2771bfd042f9a9b93c0fe86873fe->nodo40d875bf950b48d989f0e4280cb083ea;
+nodo40d875bf950b48d989f0e4280cb083ea->nodod75b38678035429a847cfa657b31f414;
+nodod75b38678035429a847cfa657b31f414->nodoe1b3f16e82bc4a6f8ac0c3d332bb1b16;
+nodoe1b3f16e82bc4a6f8ac0c3d332bb1b16->nodo9d4d639e31a140d9a2da0e72a502a113;
+nodo9d4d639e31a140d9a2da0e72a502a113->nodobbe5bdf8f6c04ae3bc0ecb31550a2800;
+{rank=same; node16;nodod9c075de23ee45ea9485e5906957b3f9;nododbc381471cef4536a0b60b82d8db2eb4;nodo605b2771bfd042f9a9b93c0fe86873fe;nodo40d875bf950b48d989f0e4280cb083ea;nodod75b38678035429a847cfa657b31f414;nodoe1b3f16e82bc4a6f8ac0c3d332bb1b16;nodo9d4d639e31a140d9a2da0e72a502a113;nodobbe5bdf8f6c04ae3bc0ecb31550a2800;}
+node17[label="Categoría: Fire Protection" group=1];
+node17->node18;
+nodof85d2b10df3b46d2aa7cf661c1d5e63f[label="Producto: Equus burchelli
+Precio: 5990.000000"];
+nodoafc0e7c3eadb49fdbed28857545e66e5[label="Producto: Merops bullockoides
+Precio: -214748.360000"];
+nodoec5f1b24072542819b2c001d60f8b296[label="Producto: Ara macao
+Precio: -214748.360000"];
+nodo506368c8648546aa8bd4c99871957510[label="Producto: Nasua narica
+Precio: 445.000000"];
+nodo24613bf79c9c4741bd2703a1cdc589c1[label="Producto: Diceros bicornis
+Precio: 3.000000"];
+nodoc5350470932d4ceba4d8593743e7fc3a[label="Producto: Ursus arctos
+Precio: 4.000000"];
+node17->nodof85d2b10df3b46d2aa7cf661c1d5e63f;
+nodof85d2b10df3b46d2aa7cf661c1d5e63f->nodoafc0e7c3eadb49fdbed28857545e66e5;
+nodoafc0e7c3eadb49fdbed28857545e66e5->nodoec5f1b24072542819b2c001d60f8b296;
+nodoec5f1b24072542819b2c001d60f8b296->nodo506368c8648546aa8bd4c99871957510;
+nodo506368c8648546aa8bd4c99871957510->nodo24613bf79c9c4741bd2703a1cdc589c1;
+nodo24613bf79c9c4741bd2703a1cdc589c1->nodoc5350470932d4ceba4d8593743e7fc3a;
+{rank=same; node17;nodof85d2b10df3b46d2aa7cf661c1d5e63f;nodoafc0e7c3eadb49fdbed28857545e66e5;nodoec5f1b24072542819b2c001d60f8b296;nodo506368c8648546aa8bd4c99871957510;nodo24613bf79c9c4741bd2703a1cdc589c1;nodoc5350470932d4ceba4d8593743e7fc3a;}
+node18[label="Categoría: Fire Sprinkler System" group=1];
+node18->node19;
+nodo7823652bc881443981da314cfc6555c5[label="Producto: Ursus americanus
+Precio: 56502.005000"];
+nodo1ee1fc707ed84fe78f6f032d4bf1a064[label="Producto: Aquila chrysaetos
+Precio: 1.000000"];
+nodo01532a9762d14130bd9ad58f7d6c7b21[label="Producto: Plectopterus gambensis
+Precio: 93172.000000"];
+nodo9f4821c6bb7e4a07a16aba962797171b[label="Producto: Varanus sp.
+Precio: 4.000000"];
+node18->nodo7823652bc881443981da314cfc6555c5;
+nodo7823652bc881443981da314cfc6555c5->nodo1ee1fc707ed84fe78f6f032d4bf1a064;
+nodo1ee1fc707ed84fe78f6f032d4bf1a064->nodo01532a9762d14130bd9ad58f7d6c7b21;
+nodo01532a9762d14130bd9ad58f7d6c7b21->nodo9f4821c6bb7e4a07a16aba962797171b;
+{rank=same; node18;nodo7823652bc881443981da314cfc6555c5;nodo1ee1fc707ed84fe78f6f032d4bf1a064;nodo01532a9762d14130bd9ad58f7d6c7b21;nodo9f4821c6bb7e4a07a16aba962797171b;}
+node19[label="Categoría: Rebar & Wire Mesh Install" group=1];
+node19->node20;
+nodo53641a6afc6b46339fd4c9c435e7f371[label="Producto: Rangifer tarandus
+Precio: 7955.000000"];
+nodo0479d037a01445d8a9193c0107454426[label="Producto: Coluber constrictor foxii
+Precio: -214748.360000"];
+nodo6cdb762fef264714b67de3f560b86f60[label="Producto: Heloderma horridum
+Precio: -214748.360000"];
+node19->nodo53641a6afc6b46339fd4c9c435e7f371;
+nodo53641a6afc6b46339fd4c9c435e7f371->nodo0479d037a01445d8a9193c0107454426;
+nodo0479d037a01445d8a9193c0107454426->nodo6cdb762fef264714b67de3f560b86f60;
+{rank=same; node19;nodo53641a6afc6b46339fd4c9c435e7f371;nodo0479d037a01445d8a9193c0107454426;nodo6cdb762fef264714b67de3f560b86f60;}
+node20[label="Categoría: Drywall & Acoustical (FED)" group=1];
+node20->node21;
+nodoe0338c45932441be8e13b67de5de346c[label="Producto: Mycteria ibis
+Precio: -214748.360000"];
+nodod8d1f35ae99e431088425598f41bcf7e[label="Producto: Semnopithecus entellus
+Precio: 3238.000000"];
+nodo9a5465aa1cbb436bb56cedc0fbdaa476[label="Producto: Mycteria leucocephala
+Precio: 150.000000"];
+nodo210416b0e39842a89ee16de775910326[label="Producto: Eurocephalus anguitimens
+Precio: 74.000000"];
+nodob8a4ecedbe4247c4aa7c2e8bd1fb6e16[label="Producto: Macropus rufogriseus
+Precio: 22.000000"];
+nodo2639b8c70bc74512940a178b6bd019a7[label="Producto: Gymnorhina tibicen
+Precio: 402.000000"];
+nodo5e2714fe71f04aa3a8ba6fb5cd617174[label="Producto: Tragelaphus strepsiceros
+Precio: 9.000000"];
+node20->nodoe0338c45932441be8e13b67de5de346c;
+nodoe0338c45932441be8e13b67de5de346c->nodod8d1f35ae99e431088425598f41bcf7e;
+nodod8d1f35ae99e431088425598f41bcf7e->nodo9a5465aa1cbb436bb56cedc0fbdaa476;
+nodo9a5465aa1cbb436bb56cedc0fbdaa476->nodo210416b0e39842a89ee16de775910326;
+nodo210416b0e39842a89ee16de775910326->nodob8a4ecedbe4247c4aa7c2e8bd1fb6e16;
+nodob8a4ecedbe4247c4aa7c2e8bd1fb6e16->nodo2639b8c70bc74512940a178b6bd019a7;
+nodo2639b8c70bc74512940a178b6bd019a7->nodo5e2714fe71f04aa3a8ba6fb5cd617174;
+{rank=same; node20;nodoe0338c45932441be8e13b67de5de346c;nodod8d1f35ae99e431088425598f41bcf7e;nodo9a5465aa1cbb436bb56cedc0fbdaa476;nodo210416b0e39842a89ee16de775910326;nodob8a4ecedbe4247c4aa7c2e8bd1fb6e16;nodo2639b8c70bc74512940a178b6bd019a7;nodo5e2714fe71f04aa3a8ba6fb5cd617174;}
+node21[label="Categoría: Prefabricated Aluminum Metal Canopies" group=1];
+node21->node22;
+nodob961f83e80374ee7b0722eb881dba48b[label="Producto: Oryx gazella
+Precio: 25293.000000"];
+nodof148cd5f1a6a426a8229feaeced21111[label="Producto: Castor canadensis
+Precio: 31459.002500"];
+nodoaa908592b0264ac3abba80e0d2cde760[label="Producto: Ceryle rudis
+Precio: 2.000000"];
+nodo11ce0557a4b7420bb3d026fffa4d8a0d[label="Producto: Lasiodora parahybana
+Precio: 59925.000000"];
+node21->nodob961f83e80374ee7b0722eb881dba48b;
+nodob961f83e80374ee7b0722eb881dba48b->nodof148cd5f1a6a426a8229feaeced21111;
+nodof148cd5f1a6a426a8229feaeced21111->nodoaa908592b0264ac3abba80e0d2cde760;
+nodoaa908592b0264ac3abba80e0d2cde760->nodo11ce0557a4b7420bb3d026fffa4d8a0d;
+{rank=same; node21;nodob961f83e80374ee7b0722eb881dba48b;nodof148cd5f1a6a426a8229feaeced21111;nodoaa908592b0264ac3abba80e0d2cde760;nodo11ce0557a4b7420bb3d026fffa4d8a0d;}
+node22[label="Categoría: EIFS" group=1];
+node22->node23;
+nodo72a2bd6732ca46d99dbaba2b1813b6be[label="Producto: Arctogalidia trivirgata
+Precio: 99273.000000"];
+nodo0a229f16fd7348f18a6867df013b28fd[label="Producto: Pelecanus conspicillatus
+Precio: 826.000000"];
+nodo2322a2ba59e34b44a7176d8270245283[label="Producto: Agouti paca
+Precio: 200.000000"];
+nodo4036fef8b09f44b188ce5f73f7dbaaf7[label="Producto: Amphibolurus barbatus
+Precio: 8577.000000"];
+nodo8e7917a916264b69a90061ba62e9f34c[label="Producto: Paradoxurus hermaphroditus
+Precio: -214748.360000"];
+node22->nodo72a2bd6732ca46d99dbaba2b1813b6be;
+nodo72a2bd6732ca46d99dbaba2b1813b6be->nodo0a229f16fd7348f18a6867df013b28fd;
+nodo0a229f16fd7348f18a6867df013b28fd->nodo2322a2ba59e34b44a7176d8270245283;
+nodo2322a2ba59e34b44a7176d8270245283->nodo4036fef8b09f44b188ce5f73f7dbaaf7;
+nodo4036fef8b09f44b188ce5f73f7dbaaf7->nodo8e7917a916264b69a90061ba62e9f34c;
+{rank=same; node22;nodo72a2bd6732ca46d99dbaba2b1813b6be;nodo0a229f16fd7348f18a6867df013b28fd;nodo2322a2ba59e34b44a7176d8270245283;nodo4036fef8b09f44b188ce5f73f7dbaaf7;nodo8e7917a916264b69a90061ba62e9f34c;}
+node23[label="Categoría: Termite Control" group=1];
+node23->node24;
+nodo24435dae858544f28d41bffc3a7780c5[label="Producto: Spheniscus magellanicus
+Precio: 16596.000000"];
+nodo1d41304da23e4d04bcaa0fc7a5f137cd[label="Producto: Dasypus septemcincus
+Precio: 39.000000"];
+nodob9db52bd8fa846549da8751154350db8[label="Producto: Phalacrocorax varius
+Precio: 68.000000"];
+nodof8ee5adfe5594e03bb7fbfca526565de[label="Producto: Acrobates pygmaeus
+Precio: 40331.002500"];
+nodo3af6b1d554c24b45b0ddc15308dcbfce[label="Producto: Paroaria gularis
+Precio: 95.000000"];
+nodo4382bc4457bb492f8437eb0556b89acd[label="Producto: Pelecans onocratalus
+Precio: 5457.000000"];
+nododf30f1bc28b046eca905a9fd9718389b[label="Producto: Spilogale gracilis
+Precio: -214748.360000"];
+nododd49f62d3c7847c6ba748d8817dacb19[label="Producto: Hystrix cristata
+Precio: -214748.360000"];
+nodoae3fddbf836949f9868428e7194eaa2a[label="Producto: Sylvilagus floridanus
+Precio: 3.000000"];
+nodofa354903c0274b658fae9e9bb88e4763[label="Producto: Procyon cancrivorus
+Precio: 2.000000"];
+node23->nodo24435dae858544f28d41bffc3a7780c5;
+nodo24435dae858544f28d41bffc3a7780c5->nodo1d41304da23e4d04bcaa0fc7a5f137cd;
+nodo1d41304da23e4d04bcaa0fc7a5f137cd->nodob9db52bd8fa846549da8751154350db8;
+nodob9db52bd8fa846549da8751154350db8->nodof8ee5adfe5594e03bb7fbfca526565de;
+nodof8ee5adfe5594e03bb7fbfca526565de->nodo3af6b1d554c24b45b0ddc15308dcbfce;
+nodo3af6b1d554c24b45b0ddc15308dcbfce->nodo4382bc4457bb492f8437eb0556b89acd;
+nodo4382bc4457bb492f8437eb0556b89acd->nododf30f1bc28b046eca905a9fd9718389b;
+nododf30f1bc28b046eca905a9fd9718389b->nododd49f62d3c7847c6ba748d8817dacb19;
+nododd49f62d3c7847c6ba748d8817dacb19->nodoae3fddbf836949f9868428e7194eaa2a;
+nodoae3fddbf836949f9868428e7194eaa2a->nodofa354903c0274b658fae9e9bb88e4763;
+{rank=same; node23;nodo24435dae858544f28d41bffc3a7780c5;nodo1d41304da23e4d04bcaa0fc7a5f137cd;nodob9db52bd8fa846549da8751154350db8;nodof8ee5adfe5594e03bb7fbfca526565de;nodo3af6b1d554c24b45b0ddc15308dcbfce;nodo4382bc4457bb492f8437eb0556b89acd;nododf30f1bc28b046eca905a9fd9718389b;nododd49f62d3c7847c6ba748d8817dacb19;nodoae3fddbf836949f9868428e7194eaa2a;nodofa354903c0274b658fae9e9bb88e4763;}
+node24[label="Categoría: Electrical" group=1];
+node24->node25;
+nodo0e5364bb090142e99bf2bbb48771bb1c[label="Producto: Tachybaptus ruficollis
+Precio: 4.000000"];
+nodo9d62e99e408945c5ab174d6498b1f176[label="Producto: Tachybaptus ruficollis
+Precio: 5324.000000"];
+node24->nodo0e5364bb090142e99bf2bbb48771bb1c;
+nodo0e5364bb090142e99bf2bbb48771bb1c->nodo9d62e99e408945c5ab174d6498b1f176;
+{rank=same; node24;nodo0e5364bb090142e99bf2bbb48771bb1c;nodo9d62e99e408945c5ab174d6498b1f176;}
+node25[label="Categoría: Masonry & Precast" group=1];
+node25->node26;
+nodoade8de275e8446a38445a9099eea4384[label="Producto: Bradypus tridactylus
+Precio: -214748.360000"];
+nodoab5be2f4a85a4742b57a182512c78a68[label="Producto: Acrobates pygmaeus
+Precio: 2.000000"];
+nodo9b5442d2fd984d9aadb403a561581448[label="Producto: Vanellus sp.
+Precio: 275.000000"];
+nodo0ed78512d77e4bd097359cad6d0f93bd[label="Producto: unavailable
+Precio: 1.000000"];
+nodo277023d2325f407c9a9700b231d174fe[label="Producto: Eunectes sp.
+Precio: 44336.000000"];
+nodo257228ed336f4edab81effb54c2330a6[label="Producto: Egretta thula
+Precio: 1771.000000"];
+node25->nodoade8de275e8446a38445a9099eea4384;
+nodoade8de275e8446a38445a9099eea4384->nodoab5be2f4a85a4742b57a182512c78a68;
+nodoab5be2f4a85a4742b57a182512c78a68->nodo9b5442d2fd984d9aadb403a561581448;
+nodo9b5442d2fd984d9aadb403a561581448->nodo0ed78512d77e4bd097359cad6d0f93bd;
+nodo0ed78512d77e4bd097359cad6d0f93bd->nodo277023d2325f407c9a9700b231d174fe;
+nodo277023d2325f407c9a9700b231d174fe->nodo257228ed336f4edab81effb54c2330a6;
+{rank=same; node25;nodoade8de275e8446a38445a9099eea4384;nodoab5be2f4a85a4742b57a182512c78a68;nodo9b5442d2fd984d9aadb403a561581448;nodo0ed78512d77e4bd097359cad6d0f93bd;nodo277023d2325f407c9a9700b231d174fe;nodo257228ed336f4edab81effb54c2330a6;}
+node26[label="Categoría: Overhead Doors" group=1];
+node26->node27;
+nodoa2c52050b1044b04b86cffb51139a7a5[label="Producto: Laniarius ferrugineus
+Precio: 56255.000000"];
+nodo5955025bf3a645358c9505e3531010de[label="Producto: Phasianus colchicus
+Precio: 1.000000"];
+nodo7ddcc6dab6cb44bf800c185c94ccfbe6[label="Producto: Taxidea taxus
+Precio: 1.000000"];
+nodo1cb3c98a29eb4f879c6340aafa3e34bc[label="Producto: Leptoptilus dubius
+Precio: 2.000000"];
+node26->nodoa2c52050b1044b04b86cffb51139a7a5;
+nodoa2c52050b1044b04b86cffb51139a7a5->nodo5955025bf3a645358c9505e3531010de;
+nodo5955025bf3a645358c9505e3531010de->nodo7ddcc6dab6cb44bf800c185c94ccfbe6;
+nodo7ddcc6dab6cb44bf800c185c94ccfbe6->nodo1cb3c98a29eb4f879c6340aafa3e34bc;
+{rank=same; node26;nodoa2c52050b1044b04b86cffb51139a7a5;nodo5955025bf3a645358c9505e3531010de;nodo7ddcc6dab6cb44bf800c185c94ccfbe6;nodo1cb3c98a29eb4f879c6340aafa3e34bc;}
+node27[label="Categoría: Structural & Misc Steel Erection" group=1];
+node27->node28;
+nodo02b9c3e033884383b8f9868c3dcaa854[label="Producto: Potos flavus
+Precio: 5877.000000"];
+nodo781f013ec1df4d17b4a3320ca2315979[label="Producto: Anser anser
+Precio: 41174.000000"];
+nodo5c21fc2b7cac460b9b3aefd5fe0f8f2c[label="Producto: Dasyurus viverrinus
+Precio: 9187.000000"];
+node27->nodo02b9c3e033884383b8f9868c3dcaa854;
+nodo02b9c3e033884383b8f9868c3dcaa854->nodo781f013ec1df4d17b4a3320ca2315979;
+nodo781f013ec1df4d17b4a3320ca2315979->nodo5c21fc2b7cac460b9b3aefd5fe0f8f2c;
+{rank=same; node27;nodo02b9c3e033884383b8f9868c3dcaa854;nodo781f013ec1df4d17b4a3320ca2315979;nodo5c21fc2b7cac460b9b3aefd5fe0f8f2c;}
+node28[label="Categoría: Hard Tile & Stone" group=1];
+node28->node29;
+nododa6a8b286671449c93ee2b21c8f7ee1a[label="Producto: Pterocles gutturalis
+Precio: 70145.995000"];
+nodo3c9e59f640004fb6aacc6fec6419af32[label="Producto: Anas platyrhynchos
+Precio: 590.000000"];
+node28->nododa6a8b286671449c93ee2b21c8f7ee1a;
+nododa6a8b286671449c93ee2b21c8f7ee1a->nodo3c9e59f640004fb6aacc6fec6419af32;
+{rank=same; node28;nododa6a8b286671449c93ee2b21c8f7ee1a;nodo3c9e59f640004fb6aacc6fec6419af32;}
+node29[label="Categoría: Elevator" group=1];
+node29->node30;
+nodo201a9837985541eb8ad17b26a171218d[label="Producto: Francolinus leucoscepus
+Precio: 505.000000"];
+nodo9d5c7ea5ba4a4a6e93ddedc348c66e4d[label="Producto: Graspus graspus
+Precio: 45.000000"];
+nodod3e000a903924c2396363dc59c60efbe[label="Producto: Sciurus vulgaris
+Precio: 54398.005000"];
+nodo93f79aaeebfd4c91adba0dd3dc46fdff[label="Producto: Physignathus cocincinus
+Precio: 3.000000"];
+nodo102169e382614043a0e0059b9071a0ea[label="Producto: Dusicyon thous
+Precio: 1.000000"];
+node29->nodo201a9837985541eb8ad17b26a171218d;
+nodo201a9837985541eb8ad17b26a171218d->nodo9d5c7ea5ba4a4a6e93ddedc348c66e4d;
+nodo9d5c7ea5ba4a4a6e93ddedc348c66e4d->nodod3e000a903924c2396363dc59c60efbe;
+nodod3e000a903924c2396363dc59c60efbe->nodo93f79aaeebfd4c91adba0dd3dc46fdff;
+nodo93f79aaeebfd4c91adba0dd3dc46fdff->nodo102169e382614043a0e0059b9071a0ea;
+{rank=same; node29;nodo201a9837985541eb8ad17b26a171218d;nodo9d5c7ea5ba4a4a6e93ddedc348c66e4d;nodod3e000a903924c2396363dc59c60efbe;nodo93f79aaeebfd4c91adba0dd3dc46fdff;nodo102169e382614043a0e0059b9071a0ea;}
+node30[label="Categoría: Masonry" group=1];
+node30->node31;
+nodo83c8ffbacb1a4919b4540a6df1a87f40[label="Producto: Fregata magnificans
+Precio: 48853.000000"];
+nodo560a8ba4657c4551ae8d6c589f7e5136[label="Producto: Ardea cinerea
+Precio: -214748.360000"];
+nodo49d3c14fba754548a141686f9b8c315f[label="Producto: Cereopsis novaehollandiae
+Precio: 39.000000"];
+node30->nodo83c8ffbacb1a4919b4540a6df1a87f40;
+nodo83c8ffbacb1a4919b4540a6df1a87f40->nodo560a8ba4657c4551ae8d6c589f7e5136;
+nodo560a8ba4657c4551ae8d6c589f7e5136->nodo49d3c14fba754548a141686f9b8c315f;
+{rank=same; node30;nodo83c8ffbacb1a4919b4540a6df1a87f40;nodo560a8ba4657c4551ae8d6c589f7e5136;nodo49d3c14fba754548a141686f9b8c315f;}
+node31[label="Categoría: Casework" group=1];
+node31->node32;
+nodof44c778a99844b9aa9a0a30bcd50c695[label="Producto: Aonyx cinerea
+Precio: 4706.000000"];
+nodo9c91a348e62b49d48729936e3a72da60[label="Producto: Amphibolurus barbatus
+Precio: 980.000000"];
+nodo00486596c2ca44afb4141a04ce5adb81[label="Producto: Ardea cinerea
+Precio: -214748.360000"];
+nodofbd271688705423a942e3a2a391048a5[label="Producto: Laniarius ferrugineus
+Precio: 9062.000000"];
+nodoebf836e342d843d18a749264e5fa2de3[label="Producto: Dusicyon thous
+Precio: 929.000000"];
+node31->nodof44c778a99844b9aa9a0a30bcd50c695;
+nodof44c778a99844b9aa9a0a30bcd50c695->nodo9c91a348e62b49d48729936e3a72da60;
+nodo9c91a348e62b49d48729936e3a72da60->nodo00486596c2ca44afb4141a04ce5adb81;
+nodo00486596c2ca44afb4141a04ce5adb81->nodofbd271688705423a942e3a2a391048a5;
+nodofbd271688705423a942e3a2a391048a5->nodoebf836e342d843d18a749264e5fa2de3;
+{rank=same; node31;nodof44c778a99844b9aa9a0a30bcd50c695;nodo9c91a348e62b49d48729936e3a72da60;nodo00486596c2ca44afb4141a04ce5adb81;nodofbd271688705423a942e3a2a391048a5;nodoebf836e342d843d18a749264e5fa2de3;}
+node32[label="Categoría: Retaining Wall and Brick Pavers" group=1];
+node32->node33;
+nodo5cc96f135d004481a75fc08bcfcd5da4[label="Producto: Myrmecophaga tridactyla
+Precio: 58.000000"];
+node32->nodo5cc96f135d004481a75fc08bcfcd5da4;
+{rank=same; node32;nodo5cc96f135d004481a75fc08bcfcd5da4;}
+node33[label="Categoría: Wall Protection" group=1];
+node33->node34;
+nodoc68e38097910470c8552f6280768dc5c[label="Producto: Ninox superciliaris
+Precio: -214748.360000"];
+nodof39a7601b4774de1ae0c3daf45f67279[label="Producto: Gymnorhina tibicen
+Precio: 85563.000000"];
+node33->nodoc68e38097910470c8552f6280768dc5c;
+nodoc68e38097910470c8552f6280768dc5c->nodof39a7601b4774de1ae0c3daf45f67279;
+{rank=same; node33;nodoc68e38097910470c8552f6280768dc5c;nodof39a7601b4774de1ae0c3daf45f67279;}
+node34[label="Categoría: Landscaping & Irrigation" group=1];
+node34->node35;
+nodo518474aedeef44a0b56aec66d2ff2134[label="Producto: Chelodina longicollis
+Precio: 197327.000000"];
+node34->nodo518474aedeef44a0b56aec66d2ff2134;
+{rank=same; node34;nodo518474aedeef44a0b56aec66d2ff2134;}
+node35[label="Categoría: Soft Flooring and Base" group=1];
+node35->node36;
+nodoe3520e35a4f44f06914500314c7a2dd1[label="Producto: Sagittarius serpentarius
+Precio: 708.000000"];
+nodo94b4223ae69644d5ad058ab31e7b67f0[label="Producto: Marmota flaviventris
+Precio: 2.000000"];
+nodo26c4706df1a54c558a40fd2c95dd7d5f[label="Producto: Ninox superciliaris
+Precio: 82.000000"];
+node35->nodoe3520e35a4f44f06914500314c7a2dd1;
+nodoe3520e35a4f44f06914500314c7a2dd1->nodo94b4223ae69644d5ad058ab31e7b67f0;
+nodo94b4223ae69644d5ad058ab31e7b67f0->nodo26c4706df1a54c558a40fd2c95dd7d5f;
+{rank=same; node35;nodoe3520e35a4f44f06914500314c7a2dd1;nodo94b4223ae69644d5ad058ab31e7b67f0;nodo26c4706df1a54c558a40fd2c95dd7d5f;}
+node36[label="Categoría: Framing (Steel)" group=1];
+node36->node37;
+nodof277ce59f9914ceb97786f4192bb4b85[label="Producto: Phalacrocorax albiventer
+Precio: 31.000000"];
+nodo40a919e43efe48a593877d4641ea5a6c[label="Producto: Haliaeetus leucoryphus
+Precio: 3463.000000"];
+node36->nodof277ce59f9914ceb97786f4192bb4b85;
+nodof277ce59f9914ceb97786f4192bb4b85->nodo40a919e43efe48a593877d4641ea5a6c;
+{rank=same; node36;nodof277ce59f9914ceb97786f4192bb4b85;nodo40a919e43efe48a593877d4641ea5a6c;}
+node37[label="Categoría: Structural and Misc Steel (Fabrication)" group=1];
+node37->node38;
+nodoe103be114a5c430e95fcc1d5e53729e8[label="Producto: Geococcyx californianus
+Precio: 21.000000"];
+nodo8076ea8bbf674246a4cb5124f18812de[label="Producto: Bubo virginianus
+Precio: 318.000000"];
+node37->nodoe103be114a5c430e95fcc1d5e53729e8;
+nodoe103be114a5c430e95fcc1d5e53729e8->nodo8076ea8bbf674246a4cb5124f18812de;
+{rank=same; node37;nodoe103be114a5c430e95fcc1d5e53729e8;nodo8076ea8bbf674246a4cb5124f18812de;}
+node38[label="Categoría: Roofing (Asphalt)" group=1];
+node38->node39;
+nodoc4156520f9be4641a7f789ae908f75d0[label="Producto: Cracticus nigroagularis
+Precio: 80.000000"];
+nodo58ba5d8c7f04431ebd0f3de91c3e6232[label="Producto: unavailable
+Precio: 7.000000"];
+node38->nodoc4156520f9be4641a7f789ae908f75d0;
+nodoc4156520f9be4641a7f789ae908f75d0->nodo58ba5d8c7f04431ebd0f3de91c3e6232;
+{rank=same; node38;nodoc4156520f9be4641a7f789ae908f75d0;nodo58ba5d8c7f04431ebd0f3de91c3e6232;}
+node39[label="Categoría: Exterior Signage" group=1];
+node39->node40;
+nodo7b58f2819cec43feb210ca7e7c753e65[label="Producto: Trichoglossus haematodus moluccanus
+Precio: 9537.000000"];
+nodo45eb91c73280424e95c9a028867ab3f5[label="Producto: Eolophus roseicapillus
+Precio: 213173.000000"];
+nodo705d5d47325a4544ad4a410071e6f04f[label="Producto: Cacatua galerita
+Precio: 5072.000000"];
+node39->nodo7b58f2819cec43feb210ca7e7c753e65;
+nodo7b58f2819cec43feb210ca7e7c753e65->nodo45eb91c73280424e95c9a028867ab3f5;
+nodo45eb91c73280424e95c9a028867ab3f5->nodo705d5d47325a4544ad4a410071e6f04f;
+{rank=same; node39;nodo7b58f2819cec43feb210ca7e7c753e65;nodo45eb91c73280424e95c9a028867ab3f5;nodo705d5d47325a4544ad4a410071e6f04f;}
+node40[label="Categoría: Epoxy Flooring" group=1];
+node40->node41;
+nodo25e257d47ada40f8a4d990467a1deb07[label="Producto: Varanus salvator
+Precio: -214748.360000"];
+node40->nodo25e257d47ada40f8a4d990467a1deb07;
+{rank=same; node40;nodo25e257d47ada40f8a4d990467a1deb07;}
+node41[label="Categoría: Drilled Shafts" group=1];
+node41->node42;
+nodobbe4912fe64e49688934dcb96d859379[label="Producto: Melursus ursinus
+Precio: 25668.000000"];
+nodob5f8c33b779e4ffd8162cbc6252f80df[label="Producto: Chionis alba
+Precio: 5.000000"];
+node41->nodobbe4912fe64e49688934dcb96d859379;
+nodobbe4912fe64e49688934dcb96d859379->nodob5f8c33b779e4ffd8162cbc6252f80df;
+{rank=same; node41;nodobbe4912fe64e49688934dcb96d859379;nodob5f8c33b779e4ffd8162cbc6252f80df;}
+node42[label="Categoría: Asphalt Paving" group=1];
+node42->node43;
+nodo09f9918250c04e148c958a0c0f05225e[label="Producto: Plegadis falcinellus
+Precio: 710.000000"];
+nodo3f70ae6b07f544ef862b69d942ece592[label="Producto: Acrantophis madagascariensis
+Precio: 78.000000"];
+nodo9c99427bc4de49b0816a845423b11686[label="Producto: Alligator mississippiensis
+Precio: -214748.360000"];
+nodo48924854807d4720b77923c69fdff5a6[label="Producto: Vanellus sp.
+Precio: 3469.000000"];
+nodod605c1952c574e5889b76e6ce26ec999[label="Producto: Cebus apella
+Precio: 217.000000"];
+node42->nodo09f9918250c04e148c958a0c0f05225e;
+nodo09f9918250c04e148c958a0c0f05225e->nodo3f70ae6b07f544ef862b69d942ece592;
+nodo3f70ae6b07f544ef862b69d942ece592->nodo9c99427bc4de49b0816a845423b11686;
+nodo9c99427bc4de49b0816a845423b11686->nodo48924854807d4720b77923c69fdff5a6;
+nodo48924854807d4720b77923c69fdff5a6->nodod605c1952c574e5889b76e6ce26ec999;
+{rank=same; node42;nodo09f9918250c04e148c958a0c0f05225e;nodo3f70ae6b07f544ef862b69d942ece592;nodo9c99427bc4de49b0816a845423b11686;nodo48924854807d4720b77923c69fdff5a6;nodod605c1952c574e5889b76e6ce26ec999;}
+node43[label="Categoría: Drywall & Acoustical (MOB)" group=1];
+nodo79267cf4d86c455b9981583b3cc54b7e[label="Producto: Vulpes cinereoargenteus
+Precio: 42.000000"];
+nodofc83ea312d43422b9a2d4b1c412bd509[label="Producto: Bucephala clangula
+Precio: 2517.000000"];
+node43->nodo79267cf4d86c455b9981583b3cc54b7e;
+nodo79267cf4d86c455b9981583b3cc54b7e->nodofc83ea312d43422b9a2d4b1c412bd509;
+{rank=same; node43;nodo79267cf4d86c455b9981583b3cc54b7e;nodofc83ea312d43422b9a2d4b1c412bd509;}
+}

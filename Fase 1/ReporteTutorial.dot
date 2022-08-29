@@ -2,18 +2,186 @@ digraph G{
  node[shape=box3d];
  rankdir="LR"; 
  label="Tutorial";nodeP[label="Dimensión de la tabla: 
- Ancho: 20
- Alto: 40"];
-node20_25[label="Coordenada
- eje x: 20
- eje y: 25"];
-node30_35[label="Coordenada
- eje x: 30
- eje y: 35"];
-node40_45[label="Coordenada
- eje x: 40
- eje y: 45"];
-nodeP->node20_25;
-node20_25->node30_35;
-node30_35->node40_45;
+ Ancho: 15
+ Alto: 15"];
+node13_7[label="Coordenada
+ eje x: 13
+ eje y: 7"];
+node14_10[label="Coordenada
+ eje x: 14
+ eje y: 10"];
+node8_1[label="Coordenada
+ eje x: 8
+ eje y: 1"];
+node5_1[label="Coordenada
+ eje x: 5
+ eje y: 1"];
+node4_13[label="Coordenada
+ eje x: 4
+ eje y: 13"];
+node6_5[label="Coordenada
+ eje x: 6
+ eje y: 5"];
+node3_3[label="Coordenada
+ eje x: 3
+ eje y: 3"];
+node13_12[label="Coordenada
+ eje x: 13
+ eje y: 12"];
+node12_3[label="Coordenada
+ eje x: 12
+ eje y: 3"];
+node9_14[label="Coordenada
+ eje x: 9
+ eje y: 14"];
+node1_3[label="Coordenada
+ eje x: 1
+ eje y: 3"];
+node4_2[label="Coordenada
+ eje x: 4
+ eje y: 2"];
+node0_1[label="Coordenada
+ eje x: 0
+ eje y: 1"];
+node12_14[label="Coordenada
+ eje x: 12
+ eje y: 14"];
+node2_14[label="Coordenada
+ eje x: 2
+ eje y: 14"];
+node8_11[label="Coordenada
+ eje x: 8
+ eje y: 11"];
+node2_8[label="Coordenada
+ eje x: 2
+ eje y: 8"];
+node7_10[label="Coordenada
+ eje x: 7
+ eje y: 10"];
+node13_9[label="Coordenada
+ eje x: 13
+ eje y: 9"];
+node13_10[label="Coordenada
+ eje x: 13
+ eje y: 10"];
+node7_2[label="Coordenada
+ eje x: 7
+ eje y: 2"];
+node14_13[label="Coordenada
+ eje x: 14
+ eje y: 13"];
+node9_4[label="Coordenada
+ eje x: 9
+ eje y: 4"];
+node12_7[label="Coordenada
+ eje x: 12
+ eje y: 7"];
+node6_3[label="Coordenada
+ eje x: 6
+ eje y: 3"];
+node3_0[label="Coordenada
+ eje x: 3
+ eje y: 0"];
+node7_9[label="Coordenada
+ eje x: 7
+ eje y: 9"];
+node11_3[label="Coordenada
+ eje x: 11
+ eje y: 3"];
+node0_14[label="Coordenada
+ eje x: 0
+ eje y: 14"];
+node11_14[label="Coordenada
+ eje x: 11
+ eje y: 14"];
+node5_14[label="Coordenada
+ eje x: 5
+ eje y: 14"];
+node4_0[label="Coordenada
+ eje x: 4
+ eje y: 0"];
+node8_14[label="Coordenada
+ eje x: 8
+ eje y: 14"];
+node14_5[label="Coordenada
+ eje x: 14
+ eje y: 5"];
+node9_1[label="Coordenada
+ eje x: 9
+ eje y: 1"];
+node7_8[label="Coordenada
+ eje x: 7
+ eje y: 8"];
+node2_6[label="Coordenada
+ eje x: 2
+ eje y: 6"];
+node11_0[label="Coordenada
+ eje x: 11
+ eje y: 0"];
+node3_2[label="Coordenada
+ eje x: 3
+ eje y: 2"];
+node11_10[label="Coordenada
+ eje x: 11
+ eje y: 10"];
+node5_10[label="Coordenada
+ eje x: 5
+ eje y: 10"];
+node3_14[label="Coordenada
+ eje x: 3
+ eje y: 14"];
+node7_5[label="Coordenada
+ eje x: 7
+ eje y: 5"];
+node4_6[label="Coordenada
+ eje x: 4
+ eje y: 6"];
+node2_11[label="Coordenada
+ eje x: 2
+ eje y: 11"];
+nodeP->node13_7;
+node13_7->node14_10;
+node14_10->node8_1;
+node8_1->node5_1;
+node5_1->node4_13;
+node4_13->node6_5;
+node6_5->node3_3;
+node3_3->node13_12;
+node13_12->node12_3;
+node12_3->node9_14;
+node9_14->node1_3;
+node1_3->node4_2;
+node4_2->node0_1;
+node0_1->node12_14;
+node12_14->node2_14;
+node2_14->node8_11;
+node8_11->node2_8;
+node2_8->node7_10;
+node7_10->node13_9;
+node13_9->node13_10;
+node13_10->node7_2;
+node7_2->node14_13;
+node14_13->node9_4;
+node9_4->node12_7;
+node12_7->node6_3;
+node6_3->node3_0;
+node3_0->node7_9;
+node7_9->node11_3;
+node11_3->node0_14;
+node0_14->node11_14;
+node11_14->node5_14;
+node5_14->node4_0;
+node4_0->node8_14;
+node8_14->node14_5;
+node14_5->node9_1;
+node9_1->node7_8;
+node7_8->node2_6;
+node2_6->node11_0;
+node11_0->node3_2;
+node3_2->node11_10;
+node11_10->node5_10;
+node5_10->node3_14;
+node3_14->node7_5;
+node7_5->node4_6;
+node4_6->node2_11;
 }

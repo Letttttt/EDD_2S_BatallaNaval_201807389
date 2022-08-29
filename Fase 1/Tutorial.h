@@ -16,6 +16,7 @@ public:
     void IngresandoTutorial(int, int);
     void MostrarTutorial();
     void Graficando();
+    bool BuscarCoordenadas(int, int);
 
 };
 

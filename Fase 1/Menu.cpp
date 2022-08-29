@@ -46,23 +46,21 @@ void Menu::Mostrar() {
                 const Json::Value movimientos = datosJson["tutorial"]["movimientos"];
 
                 for (int i = 0; i < users.size(); ++i) {
-                    cout << users[i]["nick"].asString() << endl;
+                    cout << "Ingresando usuario..." << endl;
                     usuarios->Ingresar(users[i]["nick"].asString(), users[i]["password"].asString(), stoi(users[i]["monedas"].asString()), stoi(users[i]["edad"].asString()));
 
                 }
-                usuarios->MostrarElementos();
 
                 for (int i = 0; i < productoTienda.size(); ++i) {
-                    cout << productoTienda[i]["categoria"].asString() << endl;
+                    cout << "Ingresando producto..." << endl;
                     productos->IngresandoProductoT(productoTienda[i]["id"].asString(), productoTienda[i]["categoria"].asString(), stod(productoTienda[i]["precio"].asString()), productoTienda[i]["nombre"].asString(), productoTienda[i]["src"].asString());
                 }
-                productos->MostrarTienda();
+                cout << "Ingresando tutorial..." << endl;
                 tutorial->IngresandoTutorial(stoi(datosJson["tutorial"]["ancho"].asString()), stoi(datosJson["tutorial"]["alto"].asString()));
                 for (int i = 0; i < movimientos.size(); ++i) {
-                    cout << movimientos[i]["x"].asString() << endl;
+                    cout << "Ingresando datos de tutorial..." << endl;
                     tutorial->IngresandoTutorial(stoi(movimientos[i]["x"].asString()), stoi(movimientos[i]["y"].asString()));
                 }
-                tutorial->MostrarTutorial();
                 break;
             }
             case 2:
@@ -74,7 +72,6 @@ void Menu::Mostrar() {
             case 3:
             {
                 Login();
-
                 break;
             }
             case 4:
@@ -162,8 +159,9 @@ void Menu::Login() {
 
     do {
         cout << "***  Login  ***" << endl;
-        cout << "Escriba el usuario: " << endl;
+        cout << "Escriba el usuario: ";
         cin >> nick;
+        cout << nick << endl;
         cout << "Escriba su contraseña: " << endl;
         cin >> pass;
         auxsesion = usuarios->VerificarLogin(nick, pass);
@@ -329,6 +327,7 @@ void Menu::Login() {
                     cin >> decision;
                     cout << decision << endl;
                     auxsesion->user->movimientos.IngresandoMovimientos(decision, nuevom);
+                    cout << "Su listado de movimientos se acaba de actualizar ..." << endl;
                     auxsesion->user->movimientos.MostrarMovimientos();
                     nuevom = NULL;
                     break;
@@ -361,14 +360,58 @@ void Menu::Reportes() {
             {
                 usuarios->Graficando();
                 tutorial->Graficando();
+                productos->Graficando();
                 break;
             }
             case 2:
             {
+                do {
+                    cout << "***      USUARIOS";
+                    cout << "\n#Seleccione el ordenamiento que desea ver la lista#";
+                    cout << "\n#                                                 #";
+                    cout << "\n# 1. Forma ascendente                             #";
+                    cout << "\n# 2. Forma descendente                            #";
+                    cout << "\n# 3. Regresar al menú principal                   #";
+                    cout << "\n#*************************************************#";
+                    cout << "\n\n Ingrese una opción: ";
+                    cin >> opcion;
+                    cout << opcion << endl;
+                    if (opcion < 0 || opcion > 3) {
+                        cout << "No escriba opciones fuera de rango." << endl;
+                    } else if (opcion == 1) {
+                        usuarios->OrdenamientoAsc();
+                        usuarios->Graficando();
+                    } else if (opcion == 2) {
+                        usuarios->OrdenamientoDes();
+                        usuarios->Graficando();
+                    }
+                } while (opcion != 3);
+
                 break;
             }
             case 3:
             {
+                do {
+                    cout << "***      ARTICULOS";
+                    cout << "\n#Seleccione el ordenamiento que desea ver la lista#";
+                    cout << "\n#                                                 #";
+                    cout << "\n# 1. Forma ascendente                             #";
+                    cout << "\n# 2. Forma descendente                            #";
+                    cout << "\n# 3. Regresar al menú principal                   #";
+                    cout << "\n#*************************************************#";
+                    cout << "\n\n Ingrese una opción: ";
+                    cin >> opcion;
+                    cout << opcion << endl;
+                    if (opcion < 0 || opcion > 3) {
+                        cout << "No escriba opciones fuera de rango." << endl;
+                    } else if (opcion == 1) {
+                        productos->ReordenandoAsc();
+                        productos->Graficando();
+                    } else if (opcion == 2) {
+                        productos->ReordenandoDes();
+                        productos->Graficando();
+                    }
+                } while (opcion != 3);
                 break;
             }
             case 4:

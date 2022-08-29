@@ -21,10 +21,67 @@ void ListaProductos::IngresandoProducto(string id, string categoria, double prec
 
 void ListaProductos::MostrarProducto() {
     NodoProducto*temp = principio1;
-    int contador=1;
+    int contador = 1;
     while (temp != NULL) {
-        cout << contador << ") "<< "El producto es: " << temp->nombre << " Precio: " << temp->precio << endl;
+        cout << contador << ") " << "El producto es: " << temp->nombre << " Precio: " << ((round(temp->precio * 100.0)) / 100.0) << endl;
         temp = temp->siguiente;
         contador++;
+    }
+}
+
+float ListaProductos::round(float var) {
+    float value = (int(var * 100 + .5));
+    return (float) value / 100;
+}
+
+void ListaProductos::OrdenamientoAsc() {
+    NodoProducto*temp = principio1;
+    while (temp != NULL) {
+        NodoProducto*temp2 = principio1;
+        while (temp2 != NULL) {
+            cout << "Ordenando producto..." << endl;
+            if (temp != temp2 && temp->precio < temp2->precio) {
+                string id = temp->id;
+                double precio=temp->precio;
+                string nombre=temp->nombre;
+                string desconocido=temp->desconocido;
+                temp->id=temp2->id;
+                temp->precio=temp2->precio;
+                temp->nombre=temp2->nombre;
+                temp->desconocido=temp2->desconocido;
+                temp2->id=id;
+                temp2->precio=precio;
+                temp2->nombre=nombre;
+                temp2->desconocido=desconocido;
+            }
+            temp2 = temp2->siguiente;
+        }
+        temp = temp->siguiente;
+    }
+}
+
+void ListaProductos::OrdenamientoDes() {
+    NodoProducto*temp = principio1;
+    while (temp != NULL) {
+        NodoProducto*temp2 = principio1;
+        while (temp2 != NULL) {
+            cout << "Ordenando producto..." << endl;
+            if (temp != temp2 && temp->precio > temp2->precio) {
+                string id = temp->id;
+                double precio=temp->precio;
+                string nombre=temp->nombre;
+                string desconocido=temp->desconocido;
+                temp->id=temp2->id;
+                temp->precio=temp2->precio;
+                temp->nombre=temp2->nombre;
+                temp->desconocido=temp2->desconocido;
+                temp2->id=id;
+                temp2->precio=precio;
+                temp2->nombre=nombre;
+                temp2->desconocido=desconocido;
+            }
+            temp2 = temp2->siguiente;
+        }
+        temp = temp->siguiente;
     }
 }

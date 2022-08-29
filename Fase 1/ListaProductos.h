@@ -14,6 +14,9 @@ public:
     }
     void IngresandoProducto(string, string, double, string, string);
     void MostrarProducto();
+    float round(float);
+    void OrdenamientoAsc();
+    void OrdenamientoDes();
 
 };
 

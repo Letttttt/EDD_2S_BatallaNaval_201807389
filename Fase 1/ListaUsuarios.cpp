@@ -68,23 +68,25 @@ NodoUsuario* ListaUsuarios::VerificarLogin(string nick, string pass) {
 }
 
 void ListaUsuarios::Graficando() {
+    cout << "Empezando a elaborar la imágen..." << endl;
     string grafica = "digraph G{\n node[shape=box3d];\n rankdir=\"LR\"; \n label=\"Usuarios\";";
     string nodos;
     string ruta;
     NodoUsuario*temp = principio;
     int cont = 0;
     while (cont < contador) {
-        nodos += "node" + cont + "[label=\"Nickname " + temp->user->Nickname + "\n Contraseña: " + temp->user->Password + "\n Edad: " + to_string(temp->user->Edad) + "\"];\n";
-        if (temp->siguiente != principio) {
-            ruta += "node" + to_string(cont) + "->node" + to_string(cont + 1) + ";\n";
+        cout << "Generando nodos..." << endl;
+        nodos += "node" + to_string(cont) + "[label=\"Nickname: " + temp->user->Nickname + "\n Contraseña: " + temp->user->Password + "\n Edad: " + to_string(temp->user->Edad) + "\"];\n";
+        if ((cont + 1) < contador) {
+            ruta += "node" + to_string(cont) + "->node" + to_string(cont + 1) + " [dir=\"both\"];\n";
         } else {
-            ruta += "node" + to_string(cont) + "->node0" + ";\n";
+            ruta += "node" + to_string(cont) + "->node0" + " [dir=\"both\"];\n";
         }
         cont++;
         temp = temp->siguiente;
     }
     grafica += nodos + ruta + "}";
-    cout << grafica << endl;
+    cout << "Generando imágen PNG..." << endl;
     ofstream mostrargrafica;
     mostrargrafica.open("ReporteUsuario.dot", ios::out);
     if (mostrargrafica.fail()) {
@@ -97,4 +99,48 @@ void ListaUsuarios::Graficando() {
 
 
 
+}
+
+void ListaUsuarios::OrdenamientoDes() {
+    NodoUsuario*temp = principio;
+    int cont = 0;
+    while (cont < contador) {
+        NodoUsuario*temp2 = principio;
+        int cont2 = 0;
+        while (cont2 < contador) {
+            cout << "Ordenando usuario..." << endl;
+            if (temp != temp2 && temp->user->Edad > temp2->user->Edad) {
+                Usuario* aux = temp->user;
+                temp->user = temp2->user;
+                temp2->user = aux;
+                aux = NULL;
+            }
+            cont2++;
+            temp2 = temp2->siguiente;
+        }
+        cont++;
+        temp = temp->siguiente;
+    }
+}
+
+void ListaUsuarios::OrdenamientoAsc() {
+    NodoUsuario*temp = principio;
+    int cont = 0;
+    while (cont < contador) {
+        NodoUsuario*temp2 = principio;
+        int cont2 = 0;
+        while (cont2 < contador) {
+            cout << "Ordenando usuario..." << endl;
+            if (temp != temp2 && temp->user->Edad < temp2->user->Edad) {
+                Usuario* aux = temp->user;
+                temp->user = temp2->user;
+                temp2->user = aux;
+                aux = NULL;
+            }
+            cont2++;
+            temp2 = temp2->siguiente;
+        }
+        cont++;
+        temp = temp->siguiente;
+    }
 }
